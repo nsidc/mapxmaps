@@ -178,6 +178,8 @@ Ramp1000.gpd      - 1000m RAMP Backscatter
 Ramp1250.gpd      - 1250m RAMP Backscatter
 Ramp1500.gpd      - 1500m RAMP Backscatter
 
+Moa125.gpd        - 125m Mosaic of Antarctica
+Moa750.gpd        - 750m Mosaic of Antarctica
 
 Unsupported mpp/gpd files:
 --------------------------
