@@ -1,0 +1,4 @@
+N200correct.mpp	map projection parameters		# Tibet 2.5km EASE-Grid
+870 1550	columns rows				# North Polar Projection
+80		grid cells per map unit			# 2.5 km
+-2040.5 750.5	map origin column,row			#
