@@ -2,7 +2,7 @@ Polar Stereographic
 90.00  -80.00  60.00		# lat0, lon0, lat1?
 0.0				# rotation
 190.210				# scale (km/map unit)
-88.70  145.00  			# center lat, lon
+90.0  -80.0  			# center lat, lon
 00.00  90.00			# south, north 
 -180.00  180.00			# west, east
 15.00 30.00			# lat, lon grat interval
