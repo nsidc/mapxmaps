@@ -94,20 +94,78 @@ Sps.mpp           - So. Hemisphere Polar Stereographic (TB and sea ice)
 S3A.gpd &
 S3B.gpd           - 12.5 and 25 km So. Hem. Polar Stereographic grids.
 
+Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA)
+grids:
 
-lrsa_geo180.0.gpd - Cold Land Processes Experiment (CLPX) Large Regional
-		  Study Area (LRSA) "geographic" (Cylindrical Equidistant)
-		  0.05-degree grid
+lrsa_geo000.5.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    0.5 arcsecond = 0.000138889 degree grid
+		    No current data product, but referenced in MODIS CLPX
+		    grids document.
 
-lrsa_geo360.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant) 0.1-degree grid
+lrsa_geo001.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    1.0 arcsecond = 0.000277778 degree grid
+		    No current data product, but referenced in MODIS CLPX
+		    grids document.
 
-lrsa_geo720.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant) 0.2-degree grid
+lrsa_geo007.5.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    7.5 arcsecond = 0.00208333 degree grid
+		    CLPX MOD02QKM, MOD09Q1, MOD13Q1
 
-lrsa_utm05000.gpd - CLPX LRSA UTM 5 km grid
+lrsa_geo015.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    15.0 arcsecond = 0.00416667 degree grid
+		    CLPX MOD02HKM, MOD09A1, MOD10_L2, MOD10A1, MOD10A2
 
-lrsa_utm12500.gpd - CLPX LRSA UTM 12.5 km grid
+lrsa_geo030.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    30.0 arcsecond = 0.00833333 degree grid
+		    CLPX MOD021KM, MOD03, MOD11A1, MOD35_L2
 
-lrsa_utm25000.gpd - CLPX LRSA UTM 25 km grid
+lrsa_geo180.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    180 arcsecond = 0.05-degree grid
+		    CLPX MOD10C1, MOD10C2
+
+lrsa_geo360.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		    360 arcsecond = 0.1-degree grid
+		    No current data product, but referenced in MODIS CLPX
+		    grids document.
+
+lrsa_geo720.0.gpd - CLPX LRSA Universal Transverse Mercator
+		    720 arcsecond = 0.2-degree grid
+		    CLPX SSM/I TBs, AMSR-E TBs
+
+lrsa_utm00012.gpd - CLPX LRSA Universal Transverse Mercator
+		    12.5 meter grid
+		    No current data product, but referenced in MODIS CLPX
+		    grids document.
+
+lrsa_utm00025.gpd - CLPX LRSA Universal Transverse Mercator
+		    25 meter grid
+		    No current data product, but referenced in MODIS CLPX
+		    grids document.
+
+lrsa_utm00250.gpd - CLPX LRSA Universal Transverse Mercator
+		    250 meter grid
+		    CLPX MOD02QKM, MOD09Q1, MOD13Q1
+
+lrsa_utm00500.gpd - CLPX LRSA Universal Transverse Mercator
+		    500 meter grid
+		    CLPX MOD02HKM, MOD09A1, MOD10_L2, MOD10A1, MOD10A2
+
+lrsa_utm01000.gpd - CLPX LRSA Universal Transverse Mercator
+		    1 km grid
+		    CLPX MOD021KM, MOD03, MOD11A1, MOD35_L2
+
+lrsa_utm05000.gpd - CLPX LRSA Universal Transverse Mercator
+		    5 km grid
+		    CLPX MOD10C1, MOD10C2
+
+lrsa_utm12500.gpd - CLPX LRSA Universal Transverse Mercator
+		    12.5 km grid
+		    No current data product, but referenced in MODIS CLPX
+		    grids document.
+
+lrsa_utm25000.gpd - CLPX LRSA Universal Transverse Mercator
+		    25 km grid
+		    CLPX SSM/I TBs, AMSR-E TBs
 
 ramp.mpp          - Polar Stereographic for RAMP DEM and Backscatter
 
@@ -138,7 +196,8 @@ S50.gpd		- 50 km So. Hem. EASE-Grid
 lrsa_geo1440.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
 		  0.4-degree grid
 
-lrsa_utm50000.0.gpd - CLPX LRSA UTM 50 km grid
+lrsa_utm50000.0.gpd - CLPX LRSA Universal Transverse Mercator
+                  50 km grid
 
 ncep.mpp        - 2.5-degree NCEP No. Hemisphere, cylindrical equidistant,
                   centered a the International Date Line.
