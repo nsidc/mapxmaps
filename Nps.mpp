@@ -1,4 +1,4 @@
-Polar Stereographic
+Polar Stereographic Ellipsoid
 90.0 -45.0 70.0	lat0 lon0 lat1
 0.0		rotation
 100.0	   	scale (km/map unit)
@@ -9,3 +9,4 @@ Polar Stereographic
 00.00	00.00	label lat lon
 1 0 0		cil bdy riv
 6378.273	Earth equatorial radius (km)
+0.081816153	eccentricity
