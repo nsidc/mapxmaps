@@ -1,5 +1,0 @@
-ramp.mpp	map projection parameters	# Ramp 1km DEM
-5478 4557	columns rows			# South Polar Region
-100		grid cells per map unit		# 1.0 km
-2712.6 2252.0	origin column, row		# -2713100, 2252500 meters
-
