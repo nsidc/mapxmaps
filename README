@@ -112,6 +112,7 @@ lrsa_utm25000.gpd - CLPX LRSA UTM 25 km grid
 Unsupported mpp/gpd files:
 --------------------------
 
+Gl25000.gpd     - Greenland subset of Nl grid (No. Hem. 25 km EASE-Grid)
 M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
 N5.gpd		- 5 km No. Hem. EASE-Grid
@@ -136,25 +137,11 @@ Guidelines to consider when defining new EASE-Grid gpds:
 
 Full hemisphere Azimuthal grids:
 
-1) Areal coverage: Whenever possible, relate grids by maintaining the same
-areal coverage as an existing grid, e.g. the 25 and 5 km No. Hem. grids
-(Nl.gpd and N5.gpd) cover the exact same area.
-
-2) Cell alignment: 
-
-   a) When a higher resolution grid is an odd divisor of another (5 is odd,
-   dividing 25 5 times) note that the result is nested and bore-centered, by
-   definition.  This makes the alignment decision easy.
-
-   b) However, when a new, even-numbered division is being defined, e.g. 12.5
-   km from 25 km, or 5 km from 10 km, you may choose to bore-center or nest
-   the grids.  If you choose to bore-center the grids, (e.g. Nh bore-centered
-   with Nl, or N5 bore-centered with N10), arrange for the cell containing the
-   Pole to be a bore-centered location.  In this case, note that the areal
-   coverage will never be the same, so choose a coverage that properly
-   contains (in the mathematical sense) the equator.  For purposes of cell
-   index multiples, you may choose to include more than the equator, but be
-   sure to include at least the equator.
+Keep the math simple wrt an existing grid.  If the new grid is X times the old
+resolution, then make the coordinates multiply by X.  Examples:
+N50 = Nl/2 = Nh/4 = N10/5 = N5/10.  Ensure that the equator is properly
+included in the sampled coverage of the new grid (the samples being the
+centers of the edge cells).  
 
 Global grids:
 
