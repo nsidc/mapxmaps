@@ -1,0 +1,4 @@
+NpathP.mpp	map projection parameters		# EASE-Grid
+67 67		columns rows				# Northern Hemisphere
+1		grid cells per map unit			# 100km
+33 33		map origin column,row			#
