@@ -123,8 +123,13 @@ Gl25000.gpd     - Greenland subset of Nl grid (No. Hem. 25 km EASE-Grid)
 M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
 N5.gpd		- 5 km No. Hem. EASE-Grid
+
 N10.gpd		- 10 km No. Hem. EASE-Grid
+
+N1TibP.gpd      - 1 km EASE-Grid, subset of the Tibetan Plateau
+
 N2TibP.gpd      - 2.5 km EASE-Grid, subset of the Tibetan Plateau
+
 N50.gpd		- 50 km No. Hem. EASE-Grid
 
 S50.gpd		- 50 km So. Hem. EASE-Grid
