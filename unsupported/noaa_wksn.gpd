@@ -1,0 +1,5 @@
+noaa_wksn.mpp	map projection	# Polar Stereo NOAA
+89 89		columns rows	# Northern Hemisphere
+1		cells/map unit	# 
+44 44		origin col,row  # 
+	
