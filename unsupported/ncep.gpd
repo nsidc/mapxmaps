@@ -1,4 +1,0 @@
-ncep.mpp        map projection parameters		# 2.5-Degree grid
-146 37		columns rows
-1		grid cells per map unit			#
-73.0 36.0	map origin column,row			#
