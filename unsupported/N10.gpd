@@ -1,4 +1,4 @@
-N200correct.mpp	map projection parameters		# 10 km EASE-Grid, full-hemisphere
-1798 1798	columns rows				# Northern Hemisphere
-20		grid cells per map unit			# bore-sighted with N5.gpd
-898.5 898.5	map origin column,row			# 
+N200correct.mpp	map projection parameters		# full hemisphere EASE-Grid
+1803 1803	columns rows				# No. Hem. slightly more area than Nl.gpd
+20		grid cells per map unit			# 10 km
+901.0 901.0	map origin column,row			# bore-centered wrt Nl.gpd at pole
