@@ -9,14 +9,17 @@ application programs) at NSIDC.
 See http://cires.colorado.edu/~knowlesk/ppgc.html for background on the
 software.  
 
-See ftp://baikal.colorado.edu/pub/NSIDC/maps.tar.gz for the software
+See http://nsidc.org/data/tools/mapx/ for the latest news and software
 distribution.
 
-There are two types of mpp/gpd files.  Supported files describe data sets
-that NSIDC distributes, and enjoy a higher level of support than the
-others.  Unsupported files are used for miscellanous (probably research
-only) data sets, and may be promoted to the supported level in the event
-that they are used for a distributed data set 
+There are two types of mpp/gpd files.  Supported files describe data sets that
+NSIDC distributes, and enjoy a higher level of support than the others.
+Unsupported files are used for miscellanous (possibly research only) data
+sets, and may be promoted to the supported level in the event that they are
+used for a distributed data set.  Unsupported files also include files that we
+have written for data we may have used at one time or another, for example,
+the ncep.gpd files, and think that they might be useful to someone else who
+wants to use the mapx library and applications to do something similar.
 
 Supported mpp/gpd files:
 ------------------------
