@@ -156,6 +156,23 @@ areal coverage as an existing grid, e.g. the 25 and 5 km No. Hem. grids
    index multiples, you may choose to include more than the equator, but be
    sure to include at least the equator.
 
+Global grids:
+
+1) Areal coverage:
+
+   a) Should never have overlap in the horizontal dimension, i.e. the
+   longitude of the left edge should be exactly equal to the longitude of the
+   right edge
+
+   b) Cannot (by definition) extend beyond the poles in the vertical
+   dimension.  Depending on the cell size, this will probably mean that the
+   poles will not be covered.  (If you care that much, you should probably be
+   using an azimuthal grid, anyway.)
+
+2) Refer to rules for azimuthal grids wrt nesting cells in another existing
+   grid.
+
+
 
  
 
