@@ -167,10 +167,11 @@ lrsa_utm25000.gpd - CLPX LRSA Universal Transverse Mercator
 		    25 km grid
 		    CLPX SSM/I TBs, AMSR-E TBs
 
-ramp.mpp          - Polar Stereographic for RAMP DEM and Backscatter
-
+ramp.mpp          - Polar Stereographic for RAMP DEM
 ramp1kmdem.gpd    - 1km RAMP DEM V2 Polar Stereographic
 ramp400dem.gpd    - 400m RAMP DEM V2 Polar Stereographic
+
+Ramp0125.gpd      - 125m RAMP Backscatter
 
 
 Unsupported mpp/gpd files:
