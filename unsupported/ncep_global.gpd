@@ -1,4 +1,0 @@
-NCEP.mpp	map projection parameters		# EASE-Grid
-144 73		columns rows				# Northern Hemisphere
-1		grid cells per map unit			# 2.5 degrees per cell
-72 36     	map origin column,row		# pole down/rt of grid center
