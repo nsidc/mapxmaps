@@ -1,7 +1,7 @@
 Azimuthal Equal-Area
 -90.0	0.0	lat0 lon0
 0.0		rotation
-200.5402	scale (km/pixel)
+200.5402	scale (km/map unit)
 -90.00	00.00	center lat lon
 -90.00   0.00	lat min max
 -180.00  180.00	lon min max
