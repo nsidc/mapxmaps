@@ -12,7 +12,7 @@ software.
 See ftp://baikal.colorado.edu/pub/NSIDC/maps.tar.gz for the software
 distribution.
 
-There are two types of mpp/gpd files, supported files describe data sets
+There are two types of mpp/gpd files.  Supported files describe data sets
 that NSIDC distributes, and enjoy a higher level of support than the
 others.  Unsupported files are used for miscellanous (probably research
 only) data sets, and may be promoted to the supported level in the event
@@ -42,17 +42,33 @@ Sl.gpd		- 25 km So. Hem. EASE-Grid
 
 Sh.gpd		- 12.5 km So. Hem. EASE-Grid
 
+lrsa_geo180.0.gpd - Cold Land Processes Experiment (CLPX) Large Regional
+		  Study Area (LRSA) "geographic" (Cylindrical Equidistant)
+		  0.05-degree grid
+
+lrsa_geo360.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant) 0.1-degree grid
+
+lrsa_geo720.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant) 0.2-degree grid
+
+lrsa_utm05000.gpd - CLPX LRSA UTM 5 km grid
+
+lrsa_utm12500.gpd - CLPX LRSA UTM 12.5 km grid
+
+lrsa_utm25000.gpd - CLPX LRSA UTM 25 km grid
+
 
 Unsupported mpp/gpd files:
 --------------------------
 
-M50.gpd         - 50 km Global Cylindrical EASE-Grid, used to produce 25 
-		  and 12.5 km EASE-Grid data
+M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
-N50.gpd		- 50 km No. Hem. EASE-Grid, used to produce 25 and 12.5 km
-		  EASE-Grid data
+N50.gpd		- 50 km No. Hem. EASE-Grid
 
-S50.gpd		- 50 km So. Hem. EASE-Grid, used to produce 25 and 12.5 km
-		  EASE-Grid data
+S50.gpd		- 50 km So. Hem. EASE-Grid
+
+lrsa_geo1440.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
+		  0.4-degree grid
+
+lrsa_utm50000.0.gpd - CLPX LRSA UTM 50 km grid
 
 ---------------------------------------------------------------------------
