@@ -1,0 +1,4 @@
+N200correct.mpp	map projection parameters		# MODIS 8km EASE-Grid
+1047 1047	columns rows				# Northern Hemisphere
+24		grid cells per map unit			# 8 km (8.3558420)
+523.0 523.0	map origin column,row			#
