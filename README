@@ -13,11 +13,12 @@ See http://nsidc.org/data/tools/mapx/ for the latest news and software
 distribution.
 
 Users of the mapx library and its application programs can set the local path
-to these files via environment variables PATHMPP and PATHGPD.  For example, in
+to these files the environment variable PATHMPP.  For example, in
 C shell, 
 
 setenv PATHMPP ~/lib/maps:/my/other/path
-setenv PATHGPD $PATHMPP
+
+(n.b. PATHGPD is obsolete, all routines now search PATHMPP only)
 
 There are two types of mpp/gpd files.  Supported files describe data sets that
 NSIDC distributes, and enjoy a higher level of support than the others.
@@ -143,6 +144,17 @@ ncep.mpp        - 2.5-degree NCEP No. Hemisphere, cylindrical equidistant,
                   centered a the International Date Line.
 
 ncep.gpd        - 2.5-degree NCEP grid, No. Hem. only
+
+IGH1km.gpd	- Interrupted Goode's Homolosine at 1 km, used for
+		  global landcover maps from EDC gigbp2_0g.img
+
+gl_g1km.gpd	- Interrupted Goode's Homolosine at 1 km, used for
+		  global landcover maps from BU gl_g.sds01.v4.bin
+
+etopo5.gpd	- global 5 minute maps like etopo5.dat
+etopo5.mpp
+
+gtopo30.gpd	- global 30 arc-second (~1 km) maps like GLOBE
 
 ---------------------------------------------------------------------------
 
