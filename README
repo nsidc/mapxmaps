@@ -172,6 +172,11 @@ ramp1kmdem.gpd    - 1km RAMP DEM V2 Polar Stereographic
 ramp400dem.gpd    - 400m RAMP DEM V2 Polar Stereographic
 
 Ramp0125.gpd      - 125m RAMP Backscatter
+Ramp0500.gpd      - 500m RAMP Backscatter
+Ramp0750.gpd      - 750m RAMP Backscatter
+Ramp1000.gpd      - 1000m RAMP Backscatter
+Ramp1250.gpd      - 1250m RAMP Backscatter
+Ramp1500.gpd      - 1500m RAMP Backscatter
 
 
 Unsupported mpp/gpd files:
