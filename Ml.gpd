@@ -1,4 +1,0 @@
-M200correct.mpp	map projection parameters		# EASE-Grid
-1383 586	columns rows				# Modified Mercator
-8		grid cells per map unit			# 25 km
-691.0 292.5	map origin column,row			#
