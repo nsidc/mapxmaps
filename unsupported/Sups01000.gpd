@@ -1,0 +1,16 @@
+; Southern Hemisphere Universal Polar Stereographic 1000 m
+Map Projection:			Polar Stereographic Ellipsoid
+Map Reference Latitude:         -90.0
+Map Reference Longitude:        0.0
+Map Second Reference Latitude:  -81.1145178        ; 81d06'52.264" S
+Map Equatorial Radius:          6378137.0          ; wgs84
+Map Polar Radius:               6356752.314245
+Map Origin X:			0
+Map Origin Y:			4000000
+Map False Easting:              2000000
+Map False Northing:             2000000
+Grid Map Origin Column:		-0.5
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	1000
+Grid Width:			4000
+Grid Height:			4000
