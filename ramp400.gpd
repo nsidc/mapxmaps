@@ -1,0 +1,5 @@
+ramp.mpp	map projection parameters	# Ramp 400m DEM V2
+14340 12290	columns rows			# South Polar Region
+250		grid cells per map unit		# 400 meters
+7169.5	6144.5	origin column, row		# UL outer =
+                                                # -2868000 2458000 meters
