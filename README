@@ -169,10 +169,8 @@ lrsa_utm25000.gpd - CLPX LRSA Universal Transverse Mercator
 
 ramp.mpp          - Polar Stereographic for RAMP DEM and Backscatter
 
-ramp1kmdem.gpd    - 1km RAMP DEM Polar Stereographic
-
-ramp1km.gpd
-ramp400.gpd       - 1km and 400m RAMP Backscatter Polar Stereographic
+ramp1kmdem.gpd    - 1km RAMP DEM V2 Polar Stereographic
+ramp400dem.gpd    - 400m RAMP DEM V2 Polar Stereographic
 
 
 Unsupported mpp/gpd files:
