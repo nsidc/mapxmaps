@@ -1,14 +1,14 @@
 ;; Afghan zoom image
 ;; 500 m
 Map Projection:			Azimuthal Equal-Area
-Map Reference Latitude:		90.0
-Map Reference Longitude:	0.0
-Map Rotation:			64.0
+Map Reference Latitude:		38.0
+Map Reference Longitude:	64.0
+Map Rotation:			0.0
 Map Equatorial Radius:		6370997.0 ; meters
 Map Origin Latitude:		38.0988 ; degrees
 Map Origin Longitude:		60.7005 ; degrees
 Grid Map Origin Column:		-0.5 ; UL corner of UL pixel
 Grid Map Origin Row:		-0.5 
 Grid Map Units per Cell:	500 ; 500 m
-Grid Width:			1733  
+Grid Width:			1733
 Grid Height:			1810
