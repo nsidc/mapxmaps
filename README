@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------
+NSIDC Map and Grid Library
+
+This directory contains a collection of Map Projection Parameters (.mpp)
+and Grid Parameter Definition (.gpd) files that are used in conjunction
+with the mapping and gridding software (the mapx library and its
+application programs) at NSIDC.  
+
+See http://cires.colorado.edu/~knowlesk/ppgc.html for background on the
+software.  
+
+See ftp://baikal.colorado.edu/pub/NSIDC/maps.tar.gz for the software
+distribution.
+
+There are two types of mpp/gpd files, supported files describe data sets
+that NSIDC distributes, and enjoy a higher level of support than the
+others.  Unsupported files are used for miscellanous (probably research
+only) data sets, and may be promoted to the supported level in the event
+that they are used for a distributed data set 
+
+Supported mpp/gpd files:
+------------------------
+
+M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
+		  supported EASE-Grid global gpds must refer to this mpp
+
+Ml.gpd		- 25 km Global Cylindrical EASE-Grid
+
+Mh.gpd		- 12.5 km Global Cylindrical EASE-Grid
+
+N200correct.mpp - 200 km scale Northern Hemisphere EASE-Grid mpp.  All
+		  supported EASE-Grid No. Hem. gpds must refer to this mpp
+
+Nl.gpd		- 25 km No. Hem. EASE-Grid
+
+Nh.gpd		- 12.5 km No. Hem. EASE-Grid
+
+S200correct.mpp - 200 km scale Southern Hemisphere EASE-Grid mpp.  All
+		  supported EASE-Grid So. Hem. gpds must refer to this mpp
+
+Sl.gpd		- 25 km So. Hem. EASE-Grid
+
+Sh.gpd		- 12.5 km So. Hem. EASE-Grid
+
+
+Unsupported mpp/gpd files:
+--------------------------
+
+M50.gpd         - 50 km Global Cylindrical EASE-Grid, used to produce 25 
+		  and 12.5 km EASE-Grid data
+
+N50.gpd		- 50 km No. Hem. EASE-Grid, used to produce 25 and 12.5 km
+		  EASE-Grid data
+
+S50.gpd		- 50 km So. Hem. EASE-Grid, used to produce 25 and 12.5 km
+		  EASE-Grid data
+
+---------------------------------------------------------------------------
