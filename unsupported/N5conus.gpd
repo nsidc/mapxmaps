@@ -1,0 +1,4 @@
+N200correct.mpp	map projection parameters		# CONUS 5km EASE-Grid
+675 1050	columns rows				# North Polar Projection
+40 40		grid cells per map unit			# 5 km
+1372.25 647.25	map origin column,row			#
