@@ -12,6 +12,13 @@ software.
 See http://nsidc.org/data/tools/mapx/ for the latest news and software
 distribution.
 
+Users of the mapx library and its application programs can set the local path
+to these files via environment variables PATHMPP and PATHGPD.  For example, in
+C shell, 
+
+setenv PATHMPP ~/lib/maps:/my/other/path
+setenv PATHGPD $PATHMPP
+
 There are two types of mpp/gpd files.  Supported files describe data sets that
 NSIDC distributes, and enjoy a higher level of support than the others.
 Unsupported files are used for miscellanous (possibly research only) data
@@ -21,8 +28,12 @@ have written for data we may have used at one time or another, for example,
 the ncep.gpd files, and think that they might be useful to someone else who
 wants to use the mapx library and applications to do something similar.
 
-Supported mpp/gpd files:
-------------------------
+This library of mpp/gpd files has accumulated over a number of years and
+various projects at NSIDC, and unfortunately suffers from a lack of naming
+convention.  
+
+Supported EASE-Grid mpp/gpd files:
+---------------------------------
 
 M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
 		  supported EASE-Grid global gpds must refer to this mpp
@@ -34,16 +45,54 @@ Mh.gpd		- 12.5 km Global Cylindrical EASE-Grid
 N200correct.mpp - 200 km scale Northern Hemisphere EASE-Grid mpp.  All
 		  supported EASE-Grid No. Hem. gpds must refer to this mpp
 
+N2conus.gpd     - 2.5 km CONUS No. Hemisphere subset EASE-Grid
+
+Na1.gpd,
+Na5.gpd &
+Na25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder No. Hem. subset 
+                  EASE-Grid 
+
+Naari.gpd       - 12.5 km AARI sea ice grids No. Hemisphere subset EASE-Grid
+
 Nl.gpd		- 25 km No. Hem. EASE-Grid
 
 Nh.gpd		- 12.5 km No. Hem. EASE-Grid
 
+NpathP.gpd &
+NpathP.mpp      - 100 km scale TOVS Polar Pathfinder Northern Hemisphere
+                  subset EASE-Grid; the only exception to the rule that all
+		  supported No. Hem. EASE-Grids refer to N200correct.mpp.
+
+Nrims50.gpd,
+Nrims75.gpd &
+Nrims100.gpd    - 50, 75 and 100 km Arctic RIMS Northern Hemisphere subset 
+                  EASE-Grids
+
 S200correct.mpp - 200 km scale Southern Hemisphere EASE-Grid mpp.  All
 		  supported EASE-Grid So. Hem. gpds must refer to this mpp
+
+Sa1.gpd,
+Sa5.gpd &
+Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder So. Hem. subset 
+                  EASE-Grid 
 
 Sl.gpd		- 25 km So. Hem. EASE-Grid
 
 Sh.gpd		- 12.5 km So. Hem. EASE-Grid
+
+Supported non-EASE-Grid mpp/gpd files:
+--------------------------------------
+
+Nps.mpp           - No. Hemisphere Polar Stereographic (TB and sea ice) 
+
+N3A.gpd &
+N3B.gpd           - 12.5 and 25 km No. Hem. Polar Stereographic grids.
+
+Sps.mpp           - So. Hemisphere Polar Stereographic (TB and sea ice)
+
+S3A.gpd &
+S3B.gpd           - 12.5 and 25 km So. Hem. Polar Stereographic grids.
+
 
 lrsa_geo180.0.gpd - Cold Land Processes Experiment (CLPX) Large Regional
 		  Study Area (LRSA) "geographic" (Cylindrical Equidistant)
@@ -73,5 +122,10 @@ lrsa_geo1440.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
 		  0.4-degree grid
 
 lrsa_utm50000.0.gpd - CLPX LRSA UTM 50 km grid
+
+ncep.mpp        - 2.5-degree NCEP No. Hemisphere, cylindrical equidistant,
+                  centered a the International Date Line.
+
+ncep.gpd        - 2.5-degree NCEP grid, No. Hem. only
 
 ---------------------------------------------------------------------------
