@@ -1,0 +1,9 @@
+Map Projection: Interupted Homolosine Equal-Area
+Map Reference Latitude: 0.0
+Map Reference Longitude: 0.0
+Map Equatorial Radius: 6371007.181 # meters
+Grid Width: 43200
+Grid Height: 18720
+Grid Map Origin Column: 21600
+Grid Map Origin Row: 9360
+Grid Map units per Cell: 926.625427 # ~1 km

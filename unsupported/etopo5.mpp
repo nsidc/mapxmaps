@@ -1,0 +1,11 @@
+Cylindrical Equidistant
+0.0 180.0 0.0	lat0 lon0 lat1		# USGS ETOPO5
+0.0		rotation		# 5 minute elevation data
+5.0		scale (minutes/pixel)
+0.0	180.0	center lat lon
+-90.0	90.0	lat min max
+0.0	360.0	lon min max
+10.00	10.00	grid
+0.00	00.00	label lat lon
+1 0 0		cil bdy riv
+3437.746771	Earth radius (minutes)

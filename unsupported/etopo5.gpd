@@ -1,0 +1,4 @@
+etopo5.mpp	map projection parameters		# USGS ETOPO5
+4320 2160	columns rows				# 5 minute
+1		grid cells per map unit			# elevation data
+2159.5 1079.5	map origin column,row			#

@@ -1,0 +1,9 @@
+Map Projection: Cylindrical Equidistant
+Map Reference Latitude: 0.0
+Map Reference Longitude: 0.0
+Map Equatorial Radius: 3437.746771 ; (minutes)
+Map Scale: 0.5 ; (minutes/pixel)
+Grid Width: 43200
+Grid Height: 21600
+Grid Map Origin Column: 21599.5
+Grid Map Origin Row: 10799.5
