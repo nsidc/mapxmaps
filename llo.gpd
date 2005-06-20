@@ -1,0 +1,9 @@
+Map Projection: Cylindrical Equidistant
+Map Reference Latitude: 0.0
+Map Reference Longitude: 0.0
+Map Equatorial Radius: 57.29578; map units==degrees
+Grid Map Units per Cell: 1.0 ; one degree grid
+Grid Width: 360
+Grid Height: 180
+Grid Map Origin Column: 179.5
+Grid Map Origin Row: 89.5
