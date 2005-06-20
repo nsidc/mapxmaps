@@ -184,7 +184,13 @@ Moa750.gpd        - 750m Mosaic of Antarctica
 Unsupported mpp/gpd files:
 --------------------------
 
+0.25degree.gpd  - 0.25-degree "geographic" (Cylindrical Equidistant)
+0.3degree.gpd   - 0.3-degree "geographic" (Cylindrical Equidistant)
+0.5degree.gpd   - 0.5-degree "geographic" (Cylindrical Equidistant)
+1degree.gpd     - 1-degree "geographic" (Cylindrical Equidistant)
+
 Gl25000.gpd     - Greenland subset of Nl grid (No. Hem. 25 km EASE-Grid)
+
 M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
 N5.gpd		- 5 km No. Hem. EASE-Grid
