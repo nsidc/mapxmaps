@@ -1,0 +1,4 @@
+1degree.mpp	map projection parameters # equatorial cylindrical equidistant
+1080 540	columns rows		  # 0.3 x 0.3 degree
+3		grid cells per map unit   #
+539.5 269.5	map origin column,row	  
