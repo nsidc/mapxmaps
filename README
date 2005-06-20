@@ -94,6 +94,11 @@ Sps.mpp           - So. Hemisphere Polar Stereographic (TB and sea ice)
 S3A.gpd &
 S3B.gpd           - 12.5 and 25 km So. Hem. Polar Stereographic grids.
 
+llo.gpd		  - lat/lon one degree grids for ISLSCP snow and sea ice.
+llh.gpd		  - lat/lon half degree grids for ISLSCP snow and sea ice.
+llq.gpd		  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
+
+
 Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA)
 grids:
 
