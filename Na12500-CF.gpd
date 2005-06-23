@@ -1,0 +1,4 @@
+N200correct.mpp	map projection parameters		# C.Fowler version of
+722 722		columns rows				# N. Hemisphere APP
+16		grid cells per map unit			# 12.5 km
+360.5 360.5	map origin column,row			#

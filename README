@@ -98,6 +98,8 @@ llo.gpd		  - lat/lon one degree grids for ISLSCP snow and sea ice.
 llh.gpd		  - lat/lon half degree grids for ISLSCP snow and sea ice.
 llq.gpd		  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
 
+Na12500-CF.gpd	  - Chuck Fowler's version of 12.5 km  AVHRR Polar
+		    Pathfinder No. Hem. subset EASE-Grid (ice age data set)
 
 Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA)
 grids:
