@@ -223,6 +223,9 @@ ncep.mpp        - 2.5-degree NCEP No. Hemisphere, cylindrical equidistant,
 
 ncep.gpd        - 2.5-degree NCEP grid, No. Hem. only
 
+noaa_wksn.gpd   - Describes the NOAA weekly snow maps grid (89x89, polar
+noaa_wksn.mpp	  stereo)
+
 IGH1km.gpd	- Interrupted Goode's Homolosine at 1 km, used for
 		  global landcover maps from EDC gigbp2_0g.img
 
