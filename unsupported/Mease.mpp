@@ -1,0 +1,10 @@
+Cylindrical-Equal-Area	/* projection */
+0.0 0.0 30.0		/* lat0 lon0 lat1 lon1 (decimal degrees) */
+0.0			/* orientation (portrait=0, landscape=90) */
+0.001		/* scale (kilometers per map unit) */
+0.0  0.0		/* center lat lon */
+-90.0  90.0		/* south north (decimal degrees) */
+-180.0  180.0		/* west east (decimal degrees) */
+30.0 30.0		/* graticule step (lat lon) */ 
+0.0  0.0		/* grid labels (lat lon) - not used */
+1 0 0			/* coastline, boundary, river - detail level */
