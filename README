@@ -237,6 +237,12 @@ etopo5.mpp
 
 gtopo30.gpd	- global 30 arc-second (~1 km) maps like GLOBE
 
+Mease.gpd       - global 1 meter Ease-Grid
+Mease.mpp
+
+BergsScotiaSea250.gpd    - 250 meter Lambert Conic Conformal for
+BergsSouthGeorgia250.gpd   iceberg monitoring
+
 ---------------------------------------------------------------------------
 
 Guidelines to consider when defining new EASE-Grid gpds:
