@@ -1,0 +1,17 @@
+; BergsSouthGeorgia -- 250 m
+; Lambert Conic Conformal
+Map Projection:                 Lambert Conic Conformal Ellipsoid
+Map Reference Latitude:         -50.0
+Map Second Reference Latitude:  -60.0
+Map Reference Longitude:        -36.0
+Map Eccentricity:               0.081819190843 ; wgs84
+Map Equatorial Radius:          6378137.0      ; wgs84 meters
+Map Origin Latitude:            -55.0          ; Center of grid
+Map Origin Longitude:           -36.0
+Map Origin X:                   -750000.0
+Map Origin Y:                   750000.0
+Grid Map Origin Column:		-0.5           ; UL corner
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	250
+Grid Width:			6000
+Grid Height:			6000

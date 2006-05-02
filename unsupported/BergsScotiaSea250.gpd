@@ -1,0 +1,17 @@
+; Bergs Scotia Sea -- 250 m
+; Lambert Conic Conformal
+Map Projection:                 Lambert Conic Conformal Ellipsoid
+Map Reference Latitude:         -60.0
+Map Second Reference Latitude:  -64.0
+Map Reference Longitude:        -50.0
+Map Eccentricity:               0.081819190843 ; wgs84
+Map Equatorial Radius:          6378137.0      ; wgs84 meters
+Map Origin Latitude:            -62.0          ; Center of grid
+Map Origin Longitude:           -50.0
+Map Origin X:                   -500000.0
+Map Origin Y:                   500000.0
+Grid Map Origin Column:		-0.5           ; UL corner
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	250
+Grid Width:			4000
+Grid Height:			4000
