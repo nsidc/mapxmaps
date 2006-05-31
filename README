@@ -193,6 +193,8 @@ Moa750.gpd        - 750m Mosaic of Antarctica
 Unsupported mpp/gpd files:
 --------------------------
 
+0.05degree.gpd  - 0.05-degree "geographic" (Cylindrical Equidistant)
+		  (MODIS products call this "Climate Modeller's Grid" CMG)
 0.25degree.gpd  - 0.25-degree "geographic" (Cylindrical Equidistant)
 0.3degree.gpd   - 0.3-degree "geographic" (Cylindrical Equidistant)
 0.5degree.gpd   - 0.5-degree "geographic" (Cylindrical Equidistant)
