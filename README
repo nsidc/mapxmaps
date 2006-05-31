@@ -86,13 +86,15 @@ Supported non-EASE-Grid mpp/gpd files:
 
 Nps.mpp           - No. Hemisphere Polar Stereographic (TB and sea ice) 
 
+Nps6.gpd, 
 N3A.gpd &
-N3B.gpd           - 12.5 and 25 km No. Hem. Polar Stereographic grids.
+N3B.gpd           - 6.25, 12.5 and 25 km No. Hem. Polar Stereographic grids.
 
 Sps.mpp           - So. Hemisphere Polar Stereographic (TB and sea ice)
 
+Sps6.gpd, 
 S3A.gpd &
-S3B.gpd           - 12.5 and 25 km So. Hem. Polar Stereographic grids.
+S3B.gpd           - 6.25, 12.5 and 25 km So. Hem. Polar Stereographic grids.
 
 llo.gpd		  - lat/lon one degree grids for ISLSCP snow and sea ice.
 llh.gpd		  - lat/lon half degree grids for ISLSCP snow and sea ice.
