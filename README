@@ -20,14 +20,16 @@ setenv PATHMPP ~/lib/maps:/my/other/path
 
 (n.b. PATHGPD is obsolete, all routines now search PATHMPP only)
 
-There are two types of mpp/gpd files.  Supported files describe data sets that
-NSIDC distributes, and enjoy a higher level of support than the others.
-Unsupported files are used for miscellanous (possibly research only) data
-sets, and may be promoted to the supported level in the event that they are
-used for a distributed data set.  Unsupported files also include files that we
-have written for data we may have used at one time or another, for example,
-the ncep.gpd files, and think that they might be useful to someone else who
-wants to use the mapx library and applications to do something similar.
+There are two types of mpp/gpd files.  Files in this directory are
+supported files.  Supported files describe data sets that NSIDC
+distributes, and enjoy a higher level of support than the others.
+Unsupported files (in the subdirectory called "unsupported") are used for
+miscellanous (possibly research only) data sets, and may be promoted to
+the supported level in the event that they are used for a distributed data
+set.  Unsupported files also include files that we have written for data
+we may have used at one time or another, for example, the ncep.gpd files,
+and think that they might be useful to someone else who wants to use the
+mapx library and applications to do something similar.
 
 This library of mpp/gpd files has accumulated over a number of years and
 various projects at NSIDC, and unfortunately suffers from a lack of naming
@@ -213,6 +215,14 @@ N1TibP.gpd      - 1 km EASE-Grid, subset of the Tibetan Plateau
 N2TibP.gpd      - 2.5 km EASE-Grid, subset of the Tibetan Plateau
 
 N50.gpd		- 50 km No. Hem. EASE-Grid
+
+Nups01000.gpd   - 1 km Northern Hemisphere Universal Polar Stereographic.
+                  Used for UTM for regions north of 84 degrees north
+                  latitude.
+                  
+Sups01000.gpd   - 1 km Southern Hemisphere Universal Polar Stereographic.
+                  Used for UTM for regions south of 80 degrees south
+                  latitude.
 
 S50.gpd		- 50 km So. Hem. EASE-Grid
 
