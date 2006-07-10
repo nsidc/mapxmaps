@@ -46,25 +46,27 @@ Ml.gpd		- 25 km Global Cylindrical EASE-Grid
 Mh.gpd		- 12.5 km Global Cylindrical EASE-Grid
 
 N200correct.mpp - 200 km scale Northern Hemisphere EASE-Grid mpp.  All
-		  supported EASE-Grid No. Hem. gpds must refer to this mpp
+		  supported EASE-Grid Northern Hemisphere gpds must refer
+                  to this mpp
 
-N2conus.gpd     - 2.5 km CONUS No. Hemisphere subset EASE-Grid
+N2conus.gpd     - 2.5 km CONUS Northern Hemisphere subset EASE-Grid
 
 Na1.gpd,
 Na5.gpd &
-Na25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder No. Hem. subset 
-                  EASE-Grid 
+Na25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Northern Hemisphere
+                  subset EASE-Grid 
 
-Naari.gpd       - 12.5 km AARI sea ice grids No. Hemisphere subset EASE-Grid
+Naari.gpd       - 12.5 km AARI sea ice grids Northern Hemisphere subset EASE-Grid
 
-Nl.gpd		- 25 km No. Hem. EASE-Grid
+Nl.gpd		- 25 km Northern Hemisphere EASE-Grid
 
-Nh.gpd		- 12.5 km No. Hem. EASE-Grid
+Nh.gpd		- 12.5 km Northern Hemisphere EASE-Grid
 
 NpathP.gpd &
 NpathP.mpp      - 100 km scale TOVS Polar Pathfinder Northern Hemisphere
                   subset EASE-Grid; the only exception to the rule that all
-		  supported No. Hem. EASE-Grids refer to N200correct.mpp.
+		  supported Northern Hemisphere. EASE-Grids refer to
+                  N200correct.mpp.
 
 Nrims50.gpd,
 Nrims75.gpd &
@@ -72,38 +74,40 @@ Nrims100.gpd    - 50, 75 and 100 km Arctic RIMS Northern Hemisphere subset
                   EASE-Grids
 
 S200correct.mpp - 200 km scale Southern Hemisphere EASE-Grid mpp.  All
-		  supported EASE-Grid So. Hem. gpds must refer to this mpp
+		  supported EASE-Grid Southern Hemisphere gpds must refer to this mpp
 
 Sa1.gpd,
 Sa5.gpd &
-Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder So. Hem. subset 
+Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Southern Hemisphere subset 
                   EASE-Grid 
 
-Sl.gpd		- 25 km So. Hem. EASE-Grid
+Sl.gpd		- 25 km Southern Hemisphere EASE-Grid
 
-Sh.gpd		- 12.5 km So. Hem. EASE-Grid
+Sh.gpd		- 12.5 km Southern Hemisphere EASE-Grid
 
 Supported non-EASE-Grid mpp/gpd files:
 --------------------------------------
 
-Nps.mpp           - No. Hemisphere Polar Stereographic (TB and sea ice) 
+Nps.mpp           - Northern Hemisphere Polar Stereographic (TB and sea ice) 
 
 Nps6.gpd, 
 N3A.gpd &
-N3B.gpd           - 6.25, 12.5 and 25 km No. Hem. Polar Stereographic grids.
+N3B.gpd           - 6.25, 12.5 and 25 km Northern Hemisphere Polar
+                    Stereographic grids.
 
-Sps.mpp           - So. Hemisphere Polar Stereographic (TB and sea ice)
+Sps.mpp           - Southern Hemisphere Polar Stereographic (TB and sea ice)
 
 Sps6.gpd, 
 S3A.gpd &
-S3B.gpd           - 6.25, 12.5 and 25 km So. Hem. Polar Stereographic grids.
+S3B.gpd           - 6.25, 12.5 and 25 km Southern Hemisphere Polar Stereographic grids.
 
 llo.gpd		  - lat/lon one degree grids for ISLSCP snow and sea ice.
 llh.gpd		  - lat/lon half degree grids for ISLSCP snow and sea ice.
 llq.gpd		  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
 
 Na12500-CF.gpd	  - Chuck Fowler's version of 12.5 km  AVHRR Polar
-		    Pathfinder No. Hem. subset EASE-Grid (ice age data set)
+		    Pathfinder Northern Hemisphere subset EASE-Grid (ice age
+                    data set)
 
 Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA)
 grids:
@@ -202,19 +206,20 @@ Unsupported mpp/gpd files:
 0.5degree.gpd   - 0.5-degree "geographic" (Cylindrical Equidistant)
 1degree.gpd     - 1-degree "geographic" (Cylindrical Equidistant)
 
-Gl25000.gpd     - Greenland subset of Nl grid (No. Hem. 25 km EASE-Grid)
+Gl25000.gpd     - Greenland subset of Nl grid (Northern Hemisphere 25 km
+                  EASE-Grid)
 
 M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
-N5.gpd		- 5 km No. Hem. EASE-Grid
+N5.gpd		- 5 km Northern Hemisphere EASE-Grid
 
-N10.gpd		- 10 km No. Hem. EASE-Grid
+N10.gpd		- 10 km Northern Hemisphere EASE-Grid
 
 N1TibP.gpd      - 1 km EASE-Grid, subset of the Tibetan Plateau
 
 N2TibP.gpd      - 2.5 km EASE-Grid, subset of the Tibetan Plateau
 
-N50.gpd		- 50 km No. Hem. EASE-Grid
+N50.gpd		- 50 km Northern Hemisphere EASE-Grid
 
 Nups01000.gpd   - 1 km Northern Hemisphere Universal Polar Stereographic.
                   Used for UTM for regions north of 84 degrees north
@@ -224,7 +229,7 @@ Sups01000.gpd   - 1 km Southern Hemisphere Universal Polar Stereographic.
                   Used for UTM for regions south of 80 degrees south
                   latitude.
 
-S50.gpd		- 50 km So. Hem. EASE-Grid
+S50.gpd		- 50 km Southern Hemisphere EASE-Grid
 
 lrsa_geo1440.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
 		  0.4-degree grid
@@ -232,10 +237,10 @@ lrsa_geo1440.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
 lrsa_utm50000.0.gpd - CLPX LRSA Universal Transverse Mercator
                   50 km grid
 
-ncep.mpp        - 2.5-degree NCEP No. Hemisphere, cylindrical equidistant,
+ncep.mpp        - 2.5-degree NCEP Northern Hemisphere, cylindrical equidistant,
                   centered a the International Date Line.
 
-ncep.gpd        - 2.5-degree NCEP grid, No. Hem. only
+ncep.gpd        - 2.5-degree NCEP grid, Northern Hemisphere only
 
 noaa_wksn.gpd   - Describes the NOAA weekly snow maps grid (89x89, polar
 noaa_wksn.mpp	  stereo)
