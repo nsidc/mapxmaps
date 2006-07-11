@@ -13,7 +13,7 @@ See http://nsidc.org/data/tools/mapx/ for the latest news and software
 distribution.
 
 Users of the mapx library and its application programs can set the local path
-to these files the environment variable PATHMPP.  For example, in
+to these files with the environment variable PATHMPP.  For example, in
 C shell, 
 
 setenv PATHMPP ~/lib/maps:/my/other/path
