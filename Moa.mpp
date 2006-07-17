@@ -1,0 +1,6 @@
+Map Projection:                 Polar Stereographic Ellipsoid
+Map Reference Latitude:         -90.0
+Map Reference Longitude:        0.0
+Map Second Reference Latitude:  -71.0          ; latitude of true scale
+Map Equatorial Radius:          6378137.0      ; wgs84 meters
+Map Eccentricity:               0.081819190843 ; wgs84
