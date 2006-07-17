@@ -193,8 +193,9 @@ Ramp1000.gpd      - 1000m RAMP Backscatter
 Ramp1250.gpd      - 1250m RAMP Backscatter
 Ramp1500.gpd      - 1500m RAMP Backscatter
 
-Moa125.gpd        - 125m Mosaic of Antarctica
-Moa750.gpd        - 750m Mosaic of Antarctica
+Moa.mpp           - Polar Stereographic for Mosaic of Antarctica
+Moa0125.gpd       - 125m Mosaic of Antarctica
+Moa0750.gpd       - 750m Mosaic of Antarctica
 
 Unsupported mpp/gpd files:
 --------------------------
@@ -261,6 +262,11 @@ Mease.mpp
 
 BergsScotiaSea250.gpd    - 250 meter Lambert Conic Conformal for
 BergsSouthGeorgia250.gpd   iceberg monitoring
+
+Moa125.gpd      - 125m Mosaic of Antarctica
+                  Used for internal development at NSIDC
+Moa750.gpd      - 750m Mosaic of Antarctica
+                  Used for internal development at NSIDC
 
 ---------------------------------------------------------------------------
 
