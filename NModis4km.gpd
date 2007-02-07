@@ -1,0 +1,4 @@
+N200correct.mpp	map projection parameters		# EASE-Grid
+4501 4501	columns rows				# Northern Hemisphere
+50		grid cells per map unit			# 4 km MODIS sea ice
+2250.0 2250.0	map origin column,row			#
