@@ -62,6 +62,9 @@ Nl.gpd		- 25 km Northern Hemisphere EASE-Grid
 
 Nh.gpd		- 12.5 km Northern Hemisphere EASE-Grid
 
+NModis4km.gpd   - 4 km Northern Hemisphere EASE-Grid for MODIS sea ice
+NModis1km.gpd   - 1 km Northern Hemisphere EASE-Grid for MODIS sea ice
+
 NpathP.gpd &
 NpathP.mpp      - 100 km scale TOVS Polar Pathfinder Northern Hemisphere
                   subset EASE-Grid; the only exception to the rule that all
@@ -84,6 +87,9 @@ Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Southern Hemisphere s
 Sl.gpd		- 25 km Southern Hemisphere EASE-Grid
 
 Sh.gpd		- 12.5 km Southern Hemisphere EASE-Grid
+
+SModis4km.gpd   - 4 km Southern Hemisphere EASE-Grid for MODIS sea ice
+SModis1km.gpd   - 1 km Southern Hemisphere EASE-Grid for MODIS sea ice
 
 Supported non-EASE-Grid mpp/gpd files:
 --------------------------------------
