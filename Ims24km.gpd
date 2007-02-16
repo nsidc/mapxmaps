@@ -1,0 +1,18 @@
+; IMS Northern Hemisphere
+; Polar Stereographic 24 km
+Map Projection:			Polar Stereographic
+Map Reference Latitude:         90.0
+Map Reference Longitude:        -80.0
+Map Second Reference Latitude:  60.0
+;Map Equatorial Radius:          6371.228 ; authalic sphere km
+;Map Equatorial Radius:          6405.495 ; too small
+;Map Equatorial Radius:          6405.497 ; too large
+Map Equatorial Radius:          6405.496 ; something close
+;Map Equatorial Radius:          6371.2 ; w3fb05 documentation
+Map Origin Latitude:             89.9983
+Map Origin Longitude:            55.0000
+Grid Map Origin Column:		511.5
+Grid Map Origin Row:		510.5
+Grid Map Units per Cell:	23.8125
+Grid Width:			1024
+Grid Height:			1024
