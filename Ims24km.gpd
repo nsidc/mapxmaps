@@ -1,21 +1,24 @@
 ; IMS Northern Hemisphere
-; Polar Stereographic 24 km
-; apparently 1 bedient along true latitude is 381 km.
+; Polar Stereographic 24 km grid
+; apparently 1 "bedient" along true latitude is 381 km.
 ; For a 1/16th mesh grid, then: 381/16 = 23.8125 km
-; This gpd places the NOAA locations in
+; However, this scale does not match the values in the NOAA files
 ; ftp://sidads.colorado.edu/DATASETS/NOAA/G02156/metadata/imslat_24km.dat
 ; ftp://sidads.colorado.edu/DATASETS/NOAA/G02156/metadata/imslon_24km.dat
-; at the upper left corner of each grid cell.
+; Instead, this gpd places the NOAA locations in these files 
+; at the lower left corner of each grid cell.
+; The Earth radius is assumed to to be 6371.2, based on
+; http://www.nco.ncep.noaa.gov/pmb/docs/libs/w3lib/w3fb05.html
+;
 Map Projection:			Polar Stereographic
 Map Reference Latitude:         90.0
 Map Reference Longitude:        -80.0
 Map Second Reference Latitude:  60.0
-Map Equatorial Radius:          6405.496 ; something close
-;Map Equatorial Radius:          6371.2 ; NOAA software (w3fb05) documentation
+Map Equatorial Radius:          6371.2 ; software w3fb05 documentation
 Map Origin Latitude:             89.9983
 Map Origin Longitude:            55.0000
 Grid Map Origin Column:		511.5
-Grid Map Origin Row:		510.5
-Grid Map Units per Cell:	23.8125 ; NMC 1/16th "mesh"
+Grid Map Origin Row:		511.5
+Grid Map Units per Cell:	23.669625 ; slightly smaller than 1/16 bedient
 Grid Width:			1024
 Grid Height:			1024
