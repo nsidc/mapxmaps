@@ -4,18 +4,8 @@ Map Projection:			Polar Stereographic Ellipsoid
 Map Reference Latitude:         90.0
 Map Reference Longitude:        -80.0
 Map Second Reference Latitude:  60.0
-;Map Equatorial Radius:		6378137.0      ; wgs84 meters
-;Map Polar Radius:               6356752.314245 ; wgs84 meters
-;Map Equatorial Radius:          6378273.0      ; Hughes meters
-;Map Polar Radius:               6356889.449    ; Hughes meters
-Map Equatorial Radius:          6377563.396      ; Airy meters
-Map Polar Radius:               6356256.91       ; Airy meters
-;Map Equatorial Radius:          6377340.189      ; Modified Airy meters
-;Map Polar Radius:               6356034.448      ; Modified Airy meters
-;Map Equatorial Radius:          6377397.155    ; Bessel meters
-;Map Polar Radius:               6356078.96284  ; Bessel meters
-;Map Equatorial Radius:          6377483.865      ; Bessel 1841(Namibia) meters
-;Map Polar Radius:               6356165.382966   ; Bessel 1841(Namibia) meters
+Map Equatorial Radius:		6378137.0      ; wgs84 meters
+Map Polar Radius:               6356752.314245 ; wgs84 meters
 Map Origin X:                  -12288000.0
 Map Origin Y:                  12288000.0
 Grid Map Origin Column:		-0.5           ; UL corner of UL pixel
