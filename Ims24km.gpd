@@ -5,8 +5,10 @@
 ; However, this scale does not match the values in the NOAA files
 ; ftp://sidads.colorado.edu/DATASETS/NOAA/G02156/metadata/imslat_24km.dat
 ; ftp://sidads.colorado.edu/DATASETS/NOAA/G02156/metadata/imslon_24km.dat
-; Instead, this gpd places the NOAA locations in these files 
-; at the lower left corner of each grid cell.
+; so this scale is slightly smaller.
+; 
+; The NOAA locations in these files at the lower left corner of each grid cell.
+;
 ; The Earth radius is assumed to to be 6371.2, based on
 ; http://www.nco.ncep.noaa.gov/pmb/docs/libs/w3lib/w3fb05.html
 ;
