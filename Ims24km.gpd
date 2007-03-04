@@ -17,8 +17,8 @@ Map Reference Latitude:         90.0
 Map Reference Longitude:        -80.0
 Map Second Reference Latitude:  60.0
 Map Equatorial Radius:          6371.2 ; software w3fb05 documentation
-Map Origin Latitude:             89.9983
-Map Origin Longitude:            55.0000
+Map Origin Latitude:             89.998344
+Map Origin Longitude:            55.000000
 Grid Map Origin Column:		511.5
 Grid Map Origin Row:		511.5
 Grid Map Units per Cell:	23.669625 ; slightly smaller than 1/16 bedient
