@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------
-NSIDC Map and Grid Library
+NSIDC Map and Grid Definition Files
 
 This directory contains a collection of Map Projection Parameters (.mpp)
-and Grid Parameter Definition (.gpd) files that are used in conjunction
-with the mapping and gridding software (the mapx library and its
-application programs) at NSIDC.  
+and Grid Parameter Definition (.gpd) files that are used with mapping and
+gridding software (the mapx library and its application programs) at
+NSIDC.
 
 See http://cires.colorado.edu/~knowlesk/ppgc.html for background on the
 software.  
@@ -12,30 +12,39 @@ software.
 See http://nsidc.org/data/tools/mapx/ for the latest news and software
 distribution.
 
-These files can be installed anywhere on your local system.  The typical
-place we install them is ~/lib/maps/.  The mapx library and its
-application programs use the environment variable PATHMPP to search for
-.mpp/.gpd files.  PATHMPP can contain a list of directories that will be
-searched in order.  For example, in C shell,
+These files can be installed anywhere on your local system.  If you are
+installing from a tarball, it will create a subdirectory called
+"nsidc_maps" in the directory where you extract the tarball.
 
-setenv PATHMPP ~/lib/maps:~/lib/maps/unsupported:/my/other/path
+The mapx library and its application programs use the environment variable
+PATHMPP to search for .mpp/.gpd files.  PATHMPP can contain a list of
+directories that will be searched in order.  For example, if you have
+untarred these files in your home directory, and you have your own local
+.mpp files in /my/other/path/, then, in C shell, you should specify
 
-(n.b. PATHGPD is obsolete, all routines now search PATHMPP only)
+setenv PATHMPP ~/nsidc_maps:/my/other/path
 
-There are two types of mpp/gpd files.  Files in this directory are
-supported files.  Supported files describe data sets that NSIDC
-distributes, and enjoy a higher level of support than the others.
+(N.B. For long-time users of the mapx library: PATHGPD is obsolete, all
+routines now search PATHMPP only.)
+
+There are two types of mpp/gpd files.  Files in the top nsidc_maps
+directory are supported files.  Supported files describe data sets that
+NSIDC distributes, and enjoy a higher level of support than the others.
 Unsupported files (in the subdirectory called "unsupported") are used for
-miscellanous (possibly research only) data sets, and may be promoted to
+miscellaneous (possibly research only) data sets, and may be promoted to
 the supported level in the event that they are used for a distributed data
 set.  Unsupported files also include files that we have written for data
 we may have used at one time or another, for example, the ncep.gpd files,
 and think that they might be useful to someone else who wants to use the
 mapx library and applications to do something similar.
 
-This library of mpp/gpd files has accumulated over a number of years and
-various projects at NSIDC, and unfortunately suffers from a lack of naming
-convention.  
+If you wish to use the unsupported .mpp/.gpd files, remember to add the
+nsidc_maps/unsupported subdirectory to the list of directories in your
+PATHMPP.
+
+This collection of mpp/gpd files has accumulated over a number of years
+and various projects at NSIDC, and unfortunately suffers from a lack of
+naming convention.
 
 Supported EASE-Grid mpp/gpd files:
 ---------------------------------
