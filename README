@@ -12,10 +12,11 @@ software.
 See http://nsidc.org/data/tools/mapx/ for the latest news and software
 distribution.
 
-These files can be installed anywhere on your local system.  The mapx
-library and its application programs use the environment variable PATHMPP
-to search for .mpp/.gpd files.  PATHMPP can contain a list of directories
-that will be searched in order.  For example, in C shell, 
+These files can be installed anywhere on your local system.  The typical
+place we install them is ~/lib/maps/.  The mapx library and its
+application programs use the environment variable PATHMPP to search for
+.mpp/.gpd files.  PATHMPP can contain a list of directories that will be
+searched in order.  For example, in C shell,
 
 setenv PATHMPP ~/lib/maps:~/lib/maps/unsupported:/my/other/path
 
