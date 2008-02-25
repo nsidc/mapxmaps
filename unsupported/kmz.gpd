@@ -1,0 +1,17 @@
+; NSIDC's KMZ gpd
+; Global Cylindrical Grid
+; final image  600 x 900
+Map Projection:                 Cylindrical Equidistant
+Map Reference Latitude:         0.0             ; 
+Map Reference Longitude:        0.0             ; 
+Map Scale:                      1.0             ; 1 degree / map unit
+Map Origin Latitude:            90.0            ; 
+Map Origin Longitude:           -180.00         ;
+Map Equatorial Radius:          57.2957795131   ; (360.0d ) / (2 * !dpi)
+Grid Width:                     600             ; 
+Grid Height:                    900             ;
+Grid Map Units per Row:         0.2000000       ; 180. / 900
+Grid Map Units per Column:      0.6000000       ; 360. / 600
+Grid Map Origin Column:         -0.5            ; puts Map Origin Lat-Lon
+Grid Map Origin Row:            -0.5            ; in UL outer
+ 
