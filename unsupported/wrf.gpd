@@ -1,0 +1,17 @@
+;; WRF GPD for Arctics 
+;; Polar Stereographic 30000 m
+;; -----------------------------
+Map Projection:			Polar Stereographic Ellipsoid
+Map Reference Latitude:         90.0
+Map Reference Longitude:        125.0
+Map Second Reference Latitude:  71.0
+Map Eccentricity:		0.081819190843 ; wgs84
+Map Equatorial Radius:		6378137.0      ; wgs84 meters
+Map Origin Latitude:            75.            ; Center Lat
+Map Origin Longitude:           125.           ; Center Lon
+Grid Map Origin Column:		113.0          ; Center of Grid
+Grid Map Origin Row:		85.0
+Grid Map Units per Cell:	30000.
+Grid Width:			227
+Grid Height:			171
+
