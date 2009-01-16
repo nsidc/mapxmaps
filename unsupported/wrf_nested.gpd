@@ -1,0 +1,15 @@
+;; WRF GPD for *Nested* runs. 
+;; Polar Stereographic 30000 m
+;; -----------------------------
+Map Projection:			Polar Stereographic
+Map Reference Latitude:         90.0
+Map Reference Longitude:        125.0
+Map Second Reference Latitude:  71.0          ;; TRUELAT1
+Map Equatorial Radius:		6370000.0      ; WRF Meters (according to http://www.mmm.ucar.edu/wrf/users/docs/arw_v2.pdf)
+Map Origin Latitude:            73.62453       ; CEN_LAT
+Map Origin Longitude:           122.5894       ; CEN_LON
+Grid Map Origin Column:		114.500        ; (Grid Width - 1) / 2.
+Grid Map Origin Row:		87.0           ; (Grid Height - 1) / 2.
+Grid Map Units per Cell:	30000.         ;  DX
+Grid Width:			230            ; WEST-EAST_GRID_DIMENSION - 1
+Grid Height:			175            ; SOUTH-NORTH_GRID_DIMENSION - 1
