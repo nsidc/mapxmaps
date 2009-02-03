@@ -102,6 +102,12 @@ Sh.gpd		- 12.5 km Southern Hemisphere EASE-Grid
 SModis4km.gpd   - 4 km Southern Hemisphere EASE-Grid for MODIS sea ice
 SModis1km.gpd   - 1 km Southern Hemisphere EASE-Grid for MODIS sea ice
 
+SpathP.gpd &
+SpathP.mpp      - 100 km scale TOVS Polar Pathfinder Southern Hemisphere
+                  subset EASE-Grid; the only exception to the rule that all
+		  supported Southern Hemisphere. EASE-Grids refer to
+                  S200correct.mpp.
+
 Supported non-EASE-Grid mpp/gpd files:
 --------------------------------------
 
