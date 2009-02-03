@@ -1,0 +1,23 @@
+Map Projection: Azimuthal Equal-Area
+Map Reference Latitude: 90.0
+Map Reference Longitude: 0.0
+Map Rotation: 90.0
+Map Scale: 4.17792   ; (km/pixel)
+Map Origin Latitude: 90.0
+Map Origin Longitude: 0.0
+Map Southern Bound: 0.0
+Map Northern Bound: 55.0
+Map Western Bound: -180.0
+Map Eastern Bound: 180.0
+Map Graticule Latitude Interval: 5.0
+Map Graticule Longitude Interval: 5.0
+Map Graticule Label Latitude: 5.0
+Map Graticule Label Longitude: 5.0
+Map CIL: 1
+Map BDY: 0
+Map RIV: 0
+Grid Width: 858
+Grid Height: 750
+Grid Map Origin Column: 429.0
+Grid Map Origin Row: -1008.0
+
