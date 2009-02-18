@@ -6,10 +6,10 @@ and Grid Parameter Definition (.gpd) files that are used with mapping and
 gridding software (the mapx library and its application programs) at
 NSIDC.
 
-See http://cires.colorado.edu/~knowlesk/ppgc.html for background on the
+See http://geospatialmethods.org/documents/ppgc.html for background on the
 software.  
 
-See http://nsidc.org/data/tools/mapx/ for the latest news and software
+See http://geospatialmethods.org/mapx/ for the latest news and software
 distribution.
 
 These files can be installed anywhere on your local system.  If you are
@@ -110,6 +110,10 @@ SpathP.mpp      - 100 km scale TOVS Polar Pathfinder Southern Hemisphere
 
 Supported non-EASE-Grid mpp/gpd files:
 --------------------------------------
+
+Ims24km.gpd,
+Ims4km.gpd        - NOAA Interactive Multisensor Snow & Ice Mapping System
+                    (IMS) 24 km and 4 km grids
 
 Nps.mpp           - Northern Hemisphere Polar Stereographic (TB and sea ice) 
 
@@ -230,6 +234,7 @@ Unsupported mpp/gpd files:
 0.3degree.gpd   - 0.3-degree "geographic" (Cylindrical Equidistant)
 0.5degree.gpd   - 0.5-degree "geographic" (Cylindrical Equidistant)
 1degree.gpd     - 1-degree "geographic" (Cylindrical Equidistant)
+2degree.gpd     - 2-degree "geographic" (Cylindrical Equidistant)
 
 Gl25000.gpd     - Greenland subset of Nl grid (Northern Hemisphere 25 km
                   EASE-Grid)
@@ -237,6 +242,7 @@ Gl25000.gpd     - Greenland subset of Nl grid (Northern Hemisphere 25 km
 M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
 N5.gpd		- 5 km Northern Hemisphere EASE-Grid
+N5conus.gpd     - 5 km CONUS EASE-Grid
 
 N10.gpd		- 10 km Northern Hemisphere EASE-Grid
 
@@ -254,8 +260,10 @@ Sups01000.gpd   - 1 km Southern Hemisphere Universal Polar Stereographic.
                   Used for UTM for regions south of 80 degrees south
                   latitude.
 
+S5.gpd		- 5 km Southern Hemisphere EASE-Grid
 S50.gpd		- 50 km Southern Hemisphere EASE-Grid
 
+afghan_swe.gpd  - 500 m Afghanistan EASE-Grid
 lhasa.gpd       - 4 km Tibet Plateau region (centered on Lhasa) subset of Nl grid
                   (Northern Hemisphere 25 km EASE-Grid)
 
@@ -269,6 +277,11 @@ ncep.mpp        - 2.5-degree NCEP Northern Hemisphere, cylindrical equidistant,
                   centered a the International Date Line.
 
 ncep.gpd        - 2.5-degree NCEP grid, Northern Hemisphere only
+
+ncep_global.mpp - 2.5-degree NCEP global, cylindrical equidistant,
+                  centered at the Greenwich Meridian
+
+ncep_global.gpd - 2.5-degree NCEP grid, Northern Hemisphere only
 
 noaa_wksn.gpd   - Describes the NOAA weekly snow maps grid (89x89, polar
 noaa_wksn.mpp	  stereo)
