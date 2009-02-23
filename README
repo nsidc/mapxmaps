@@ -257,6 +257,12 @@ N2TibP.gpd      - 2.5 km EASE-Grid, subset of the Tibetan Plateau
 
 N50.gpd		- 50 km Northern Hemisphere EASE-Grid
 
+Nha.gpd         - 12.5 km Northern Hemisphere EASE-Grid. 721 x 721 subset
+                  of Nh.gpd, centered at North Pole.
+
+Nva.gpd         - 6.25 km Northern Hemisphere EASE-Grid. 1441 x 1441, 
+                  centered at North Pole.
+
 Nups01000.gpd   - 1 km Northern Hemisphere Universal Polar Stereographic.
                   Used for UTM for regions north of 84 degrees north
                   latitude.
@@ -267,6 +273,12 @@ Sups01000.gpd   - 1 km Southern Hemisphere Universal Polar Stereographic.
 
 S5.gpd		- 5 km Southern Hemisphere EASE-Grid
 S50.gpd		- 50 km Southern Hemisphere EASE-Grid
+
+Sha.gpd         - 12.5 km Southern Hemisphere EASE-Grid, 721x721 subset
+                  of Nl.gpd, centered at South Pole.
+
+Sva.gpd         - 6.25 km Southern Hemisphere EASE-Grid, 1441x1441,
+                  centered at South Pole.
 
 afghan_swe.gpd  - 500 m Afghanistan EASE-Grid
 lhasa.gpd       - 4 km Tibet Plateau region (centered on Lhasa) subset of Nl grid
