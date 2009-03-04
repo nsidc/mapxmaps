@@ -1,0 +1,10 @@
+;; Map for ncep regridding.
+Map Projection: Cylindrical Equidistant
+Map Reference Latitude: 0.0
+Map Reference Longitude: 180.0
+Map Equatorial Radius: 57.29578 ; map units==degrees
+Grid Map Units per Cell: 2.5    ; 2.5 degree grid
+Grid Width: 144
+Grid Height: 73
+Grid Map Origin Column: 72.0
+Grid Map Origin Row: 36
