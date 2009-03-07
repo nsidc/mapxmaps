@@ -255,6 +255,10 @@ N1TibP.gpd      - 1 km EASE-Grid, subset of the Tibetan Plateau
 
 N2TibP.gpd      - 2.5 km EASE-Grid, subset of the Tibetan Plateau
 
+N250km.gpd      - Northern Hemisphere, 250 km EASE-Grid, with North Pole
+                  at intersection of center 4 cells.  "New" (parameter:value)
+                  format gpd.
+                  
 N50.gpd		- 50 km Northern Hemisphere EASE-Grid
 
 Nha.gpd         - 12.5 km Northern Hemisphere EASE-Grid. 721 x 721 subset
