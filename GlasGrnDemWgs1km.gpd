@@ -1,0 +1,15 @@
+; GLAS Greenland DEM WGS84 ellipsoid
+; Polar Stereographic 1 km
+Map Projection:			Polar Stereographic Ellipsoid
+Map Reference Latitude:         90.0
+Map Reference Longitude:        -45.0
+Map Second Reference Latitude:  70.0
+Map Eccentricity:		0.081819190843 ; wgs84
+Map Equatorial Radius:		6378137.0      ; wgs84 meters
+Map Origin X:                   -890500.0      ; (3621 - 4511 - .5) * 1000
+Map Origin Y:                   -628500.0      ; (4511 - 5140 + .5) * 1000
+Grid Map Origin Column:		-0.5           ; UL corner of UL pixel
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	1000
+Grid Width:			2611
+Grid Height:			2782

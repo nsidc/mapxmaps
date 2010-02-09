@@ -1,0 +1,15 @@
+; GLAS Antarctic Dem
+; Polar Stereographic 500 m
+Map Projection:			Polar Stereographic Ellipsoid
+Map Reference Latitude:         -90.0
+Map Reference Longitude:        0.0
+Map Second Reference Latitude:  -70.0
+Map Eccentricity:		0.081819190843 ; wgs84
+Map Equatorial Radius:		6378137.0      ; wgs84 meters
+Map Origin X:                   -2812250.0
+Map Origin Y:                    2299750.0
+Grid Map Origin Column:		-0.5           ; UL corner of UL pixel
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	500
+Grid Width:			11352
+Grid Height:			9368
