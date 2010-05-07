@@ -290,6 +290,10 @@ Sva.gpd         - 6.25 km Southern Hemisphere EASE-Grid, 1441x1441,
                   centered at South Pole.
 
 afghan_swe.gpd  - 500 m Afghanistan EASE-Grid
+
+conus_geo030.gpd - Snow Data Assimilation System (SNODAS) Contiguous US
+                   (CONUS) 30 arc-second Cylindrical Equidistant (lat/lon) grid
+
 lhasa.gpd       - 4 km Tibet Plateau region (centered on Lhasa) subset of Nl grid
                   (Northern Hemisphere 25 km EASE-Grid)
 

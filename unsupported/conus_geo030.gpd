@@ -1,0 +1,16 @@
+; Snow Data Assimilation System (SNODAS)
+; Continuous US (CONUS)
+; GEO 30 arcseconds (nominal 1 km)
+Map Projection:                 Cylindrical Equidistant
+Map Reference Latitude:         0.0             ; 
+Map Reference Longitude:        0.0             ; 
+Map Scale:                      1.0             ; 1 arcsecond per map unit
+Map Origin Latitude:            52.8754         ; UL outer corner
+Map Origin Longitude:           -124.7337
+Map Equatorial Radius:          206264.797      ; (360.0 * 3600.) / (2 * !pi)
+Grid Width:                     6935            ; LR outer = 24.9504 N, -66.9421 W
+Grid Height:                    3351            ;
+Grid Map Units per Cell:        30              ; 30" = 0.5' = 0.00833333 deg
+                                                ; =~ 927 m
+Grid Map Origin Column:         -0.5            ; puts Map Origin Lat-Lon
+Grid Map Origin Row:            -0.5            ; in UL outer corner
