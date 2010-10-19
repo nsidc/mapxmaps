@@ -1,0 +1,11 @@
+; Indus Basin
+; UTM 463 m (MODIS resolution) = 15 arcseconds
+Map Projection:			Universal Transverse Mercator
+Map UTM Zone:                   43
+Map Origin X:			250000
+Map Origin Y:			4120000
+Grid Map Origin Column:		-0.5
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	463.31271653 ; m, MODIS tile resolution
+Grid Width:			2374
+Grid Height:			1554
