@@ -1,0 +1,16 @@
+; 250 m Greenland subset of 25 km Northern Hemisphere EASE-Grid.
+; 250 m cells are nested exactly into 25 km cells by a factor of 100.
+; This projection uses a spherical earth model
+Map Projection:                     Azimuthal Equal-Area
+Map Reference Latitude:             90.0
+Map Reference Longitude:            0.0
+Map Rotation:                       0.0
+Map Equatorial Radius:              6371.228 
+Map Scale:                          200.5402 ; (km/map unit)
+Map Origin Latitude:                67.700235  ; UL outer corner is 
+Map Origin Longitude:               -82.694240 ; Nl(col,row)=(262.5,372.5)
+Grid Width:                         9300
+Grid Height:                        8700
+Grid Cells per Map Unit:            800
+Grid Map Origin Column:             -0.5
+Grid Map Origin Row:                -0.5

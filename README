@@ -49,6 +49,8 @@ naming convention.
 Supported EASE-Grid mpp/gpd files:
 ---------------------------------
 
+Grn250m.gpd     - DataRods 25 m Greenland subset of 25 km Northern Hemisphere EASE-Grid
+                  
 M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
 		  supported EASE-Grid global gpds must refer to this mpp
 
