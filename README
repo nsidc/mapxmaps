@@ -348,6 +348,13 @@ westUS2km.gpd   - 2 km Western US region subset of Nl grid
 
 Guidelines to consider when defining new EASE-Grid gpds:
 
+Use the new format (parameter:value, all in the .gpd, no separate .mpp
+file).  It's easier to read and maintain.
+
+Keep units in meters.  Although mapx can handle other units, other units
+can cause confusion in the utilities like xytest.  For clean ways to nest
+grids inside existing grids, see examples like Moa125.gpd and Grn250m.gpd.
+
 Full hemisphere Azimuthal grids:
 
 Keep the math simple wrt an existing grid.  If the new grid is X times the old
