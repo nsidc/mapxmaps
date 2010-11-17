@@ -1,0 +1,14 @@
+; This is the GPD_Viewer equivalent of the SensorFusion500.gpd file.
+Map Projection:                Azimuthal Equal-Area                         
+Map Reference Latitude:        80.0000                                      
+Map Reference Longitude:       180.000                                      
+Map Scale:                     1.00000                                      
+Map Equatorial Radius:         6370997.0                                    
+Eccentricity:                  0.0                                    
+Map Origin X:                  -1440000.00                                  
+Map Origin Y:                  1200000.00                                   
+Grid Map Units per Cell:       500.000                                      
+Grid Map Origin Column:        -0.5                                         
+Grid Map Origin Row:           -0.5                                         
+Grid Width:                    5760                                         
+Grid Height:                   4800                                         
