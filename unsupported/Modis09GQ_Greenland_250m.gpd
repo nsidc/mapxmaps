@@ -1,0 +1,20 @@
+; 250 m Greenland subset of 25 km Northern Hemisphere EASE-Grid.
+; 250 m cells are nested exactly into 25 km Nl.gpd cells by a factor of 100.
+; This projection uses a spherical earth model.
+; Nl.gpd Col 262.5, Row 372.5 maps to the UL corner of the UL cell,
+; and covers the specified 93 column x 87 row subset of Nl.gpd exactly.
+; The map coordinates are in meters.
+; 200540.2 is the N200correct.mpp scale converted to meters per map unit.
+; Nl.gpd specifies 8 map units per cell.
+; Nl.gpd specifies 360.0, 360.0 as the map origin column, row.
+Map Projection:                     Azimuthal Equal-Area
+Map Reference Latitude:             90.0
+Map Reference Longitude:            0.0
+Map Equatorial Radius:              6371228.0
+Map Origin X:                       -2444083.6875 ; 200540.2 / 8 * (262.5-360)
+Map Origin Y:                       -313344.0625  ; 200540.2 / 8 * (360-372.5)
+Grid Map Origin Column:             -0.5          ; UL corner of UL cell
+Grid Map Origin Row:                -0.5
+Grid Map Units per Cell:            250.67525     ; 200540.2 / 800
+Grid Width:                         9300
+Grid Height:                        8700
