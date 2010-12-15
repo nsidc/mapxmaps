@@ -49,7 +49,7 @@ naming convention.
 Supported EASE-Grid mpp/gpd files:
 ---------------------------------
 
-Grn250m.gpd     - DataRods 25 m Greenland subset of 25 km Northern Hemisphere EASE-Grid
+Grn250m.gpd     - DataRods 250 m Greenland subset of 25 km Northern Hemisphere EASE-Grid
                   
 M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
 		  supported EASE-Grid global gpds must refer to this mpp
@@ -359,9 +359,19 @@ Full hemisphere Azimuthal grids:
 
 Keep the math simple wrt an existing grid.  If the new grid is X times the old
 resolution, then make the coordinates multiply by X.  Examples:
-N50 = Nl/2 = Nh/4 = N10/5 = N5/10.  Ensure that the equator is properly
-included in the sampled coverage of the new grid (the samples being the
-centers of the edge cells).  
+N50 = Nl/2 = Nh/4 = N10/5 = N5/10.
+
+The original rule for EASE-Grids was to ensure that the equator was
+properly included in the sampled coverage of the new grid (the samples
+being the centers of the edge cells); however, this caused problems with
+grid corner cells "wrapping" around the opposite pole.  The EASE-Grid-2.0
+recommendation is to avoid this situation by placing the pole exactly at
+or outside the edge cells.
+
+The original EASE-Grid used a spherical Earth model, with R=6371.228 km.
+Distances in the original mpp/gpd files were in km.
+
+EASE-Grid-2.0 uses the WGS84 ellipsoid.  Keep the distances in meters.  
 
 Global grids:
 
