@@ -135,6 +135,8 @@ Sps6.gpd,
 S3A.gpd &
 S3B.gpd           - 6.25, 12.5 and 25 km Southern Hemisphere Polar Stereographic grids.
 
+NpsGrn.gpd        - 25 km Greenland subset of Nps.mpp
+
 llo.gpd		  - lat/lon one degree grids for ISLSCP snow and sea ice.
 llh.gpd		  - lat/lon half degree grids for ISLSCP snow and sea ice.
 llq.gpd		  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
