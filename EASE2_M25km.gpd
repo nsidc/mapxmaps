@@ -1,20 +1,24 @@
 ; 25 km Global EASE-Grid-2.0 grid parameter definition.
 ; This projection uses the WGS84 ellipsoid.
-: The pole is placed at the exact middle of the grid area
+; The left and right edges of the grid are at -+180.0000000 deg longitude.
+; The top and bottom edges of the grid are at  +-84.4397905 deg latitude.
 Map Projection:                     Cylindrical Equal-Area (ellipsoid)
 Map Reference Latitude:             0.0
 Map Reference Longitude:            0.0
 Map Second Reference Latitude:      30.0
 Map Rotation:                       0.0
-Map Equatorial Radius:              6378137.0      ; wgs84
-Map Eccentricity:                   0.081819190843 ; wgs84
-Map Origin X:                       0. ; meters
-Map Origin Y:                       0. ; meters
-Grid Map Origin Column:             693.0
-Grid Map Origin Row:                292.5
-Grid Map Units per Cell:            25043.512801348206
-Grid Width:                         1387
-Grid Height:                        586
+Map Equatorial Radius:              6378137.0        ; wgs84
+Map Eccentricity:                   0.081819190843   ; wgs84
+Map Origin X:                       -17367530.445615 ; -180.0000 deg lon
+                                                     ; mapped to X
+Map Origin Y:                       7307375.9223625  ; Grid Map Units per Cell *
+                                                     ; Grid Height / 2
+Grid Map Origin Column:             -0.5
+Grid Map Origin Row:                -0.5
+Grid Map Units per Cell:            25025.2600081    ; -2 * Map Origin X /
+                                                     ; Grid Width
+Grid Width:                         1388
+Grid Height:                        584
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
 Map Southern Bound:                 -90.0
