@@ -1,0 +1,15 @@
+; Modis mosaic of Greenland
+; Polar Stereographic 100 m
+Map Projection:			Polar Stereographic Ellipsoid
+Map Reference Latitude:         90.0
+Map Reference Longitude:        -45.0
+Map Second Reference Latitude:  70.0
+Map Eccentricity:		0.081819190843 ; wgs84
+Map Equatorial Radius:		6378137.0      ; wgs84 meters
+Map Origin X:                  -1200000.0
+Map Origin Y:                  -600000.0
+Grid Map Origin Column:		-0.5           ; UL corner of UL pixel
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	100
+Grid Width:			21000
+Grid Height:			28000
