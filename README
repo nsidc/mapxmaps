@@ -49,6 +49,21 @@ naming convention.
 Supported EASE-Grid mpp/gpd files:
 ---------------------------------
 
+EASE2_Xyykm.gpd - Families of EASE-Grid-2.0 definitions, which use the
+                  WGS84 ellipsoid instead of the spherical Earth model
+                  used in the original EASE-Grids.  These grid definitions
+                  make file distribution to/from geotiff format and GIS
+                  tools much easier than the original definitions.  For
+		  these grids:
+		  X : N = Northern Lambert Azimuthal Equal-Area
+		      S = Southern Lambert Azimuthal Equal-Area
+		      M = Cylindrical Equal-Area
+		  and
+		  yy : grid resolution, in km (can include optional
+		       decimal point, e.g. '12.5'
+		  The 25/12.5/6.25 km grids are nested (exactly 4 of each
+		  12.5-kilometer cells in each 25-kilometer cell, etc)
+
 Grn250m.gpd     - DataRods 250 m Greenland subset of 25 km Northern Hemisphere EASE-Grid
                   
 M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
@@ -247,6 +262,12 @@ Unsupported mpp/gpd files:
 1degree.gpd     - 1-degree "geographic" (Cylindrical Equidistant)
 2degree.gpd     - 2-degree "geographic" (Cylindrical Equidistant)
 
+EASE2_M36km.gpd
+EASE2_M9km.gpd
+EASE2_M3km.gpd
+EASE2_Mkm.gpd   - The 36/9/3/1 km EASE-Grid-2.0 grids (see above for EASE-Grid-2.0)
+		  for SMAP (Soil Moisture Active-Passive) are nested.
+		  
 Gl25000.gpd     - Greenland subset of Nl grid (Northern Hemisphere 25 km
                   EASE-Grid)
 
