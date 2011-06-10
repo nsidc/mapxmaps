@@ -263,9 +263,9 @@ Unsupported mpp/gpd files:
 2degree.gpd     - 2-degree "geographic" (Cylindrical Equidistant)
 
 EASE2_M36km.gpd
-EASE2_M9km.gpd
-EASE2_M3km.gpd
-EASE2_Mkm.gpd   - The 36/9/3/1 km EASE-Grid-2.0 grids (see above for EASE-Grid-2.0)
+EASE2_M09km.gpd
+EASE2_M03km.gpd
+EASE2_M01km.gpd - The 36/9/3/1 km EASE-Grid-2.0 grids (see above for EASE-Grid-2.0)
 		  for SMAP (Soil Moisture Active-Passive) are nested.
 		  
 Gl25000.gpd     - Greenland subset of Nl grid (Northern Hemisphere 25 km
