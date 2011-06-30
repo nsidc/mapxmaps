@@ -102,7 +102,19 @@ NpathP.mpp      - 100 km scale TOVS Polar Pathfinder Northern Hemisphere
 Nrims50.gpd,
 Nrims75.gpd &
 Nrims100.gpd    - 50, 75 and 100 km Arctic RIMS Northern Hemisphere subset 
-                  EASE-Grids
+                  EASE-Grids.  This family of grids places the Pole down and to the
+		  right of the center of the grid, in order to match the bore-centered
+		  convention of the original EASE-Grids, uses the rotation of the
+		  original EASE-Grids (Greenwich Meridian oriented "down" from the Pole)
+
+Nrims25km.gpd,
+Nrims50km.gpd,
+Nrims100km.gpd,
+Nrims125km.gpd,
+Nrims500km.gpd  - Arctic RIMS No. Hem. EASE-Grids.  This family of
+                  grids places the Pole at the intersection of the center 4 grid cells,
+		  and rotates the projection (Greenwich Meridian oriented "right" from
+		  the Pole).  The 25, 50 and 100 km grids are nested.
 
 S200correct.mpp - 200 km scale Southern Hemisphere EASE-Grid mpp.  All
 		  supported EASE-Grid Southern Hemisphere gpds must refer to this mpp

@@ -1,0 +1,32 @@
+; 125 km Northern Hemisphere EASE-Grid grid parameter definition for RIMS. This
+; projection uses a spherical earth model, specifying the sphere with the same
+; surface area as an ellipsoid using the International Datum
+; The projection is rotated 90 degrees about the pole ( 90 E goes from the pole "upwards" )
+; The pole is at the intersection of the center 4 grid cells
+Map Projection:                     Azimuthal Equal-Area
+Map Reference Latitude:             90.0
+Map Reference Longitude:            -90.0
+Map Rotation:                       0.0
+Map Equatorial Radius:              6371.228 
+Map Scale:                          200.5402 ; (km/map unit)
+Map Origin Latitude:                90.0
+Map Origin Longitude:               0.0
+Grid Width:                         144
+Grid Height:                        144
+Grid Cells per Map Unit:            1.6
+Grid Map Origin Column:             71.5
+Grid Map Origin Row:                71.5
+
+; The following parameters are used only by NSIDC programs that actually draw maps
+Map Southern Bound:                 0.0
+Map Northern Bound:                 90.0
+Map Western Bound:                  -180.0
+Map Eastern Bound:                  180.0
+Map Graticule Latitude Interval:    15.00
+Map Graticule Longitude Interval:   30.00
+Map Graticule Label Latitude:       0.0
+Map Graticule Label Longitude:      0.0
+Map CIL Detail Level:               1
+Map BDY Detail Level:               0
+Map RIV Detail Level:               0
+

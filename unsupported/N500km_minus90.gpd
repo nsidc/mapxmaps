@@ -1,4 +1,0 @@
-N200minus90.mpp	map projection parameters		# EASE-Grid
-36 36		columns rows				# Northern Hemisphere
-0.4		grid cells per map unit			# 25 km
-17.5 17.5	map origin column,row			#
