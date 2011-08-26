@@ -18,8 +18,8 @@ Grid Width:                         500
 Grid Height:                        500
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
-Map Southern Bound:                 0.0
-Map Northern Bound:                 90.0
+Map Southern Bound:                 -90.0
+Map Northern Bound:                 0.0
 Map Western Bound:                  -180.0
 Map Eastern Bound:                  180.0
 Map Graticule Latitude Interval:    15.00
