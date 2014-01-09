@@ -400,8 +400,11 @@ The original rule for EASE-Grids was to ensure that the equator was
 properly included in the sampled coverage of the new grid (the samples
 being the centers of the edge cells); however, this caused problems with
 grid corner cells "wrapping" around the opposite pole.  The EASE-Grid-2.0
-recommendation is to avoid this situation by placing the pole exactly at
-or outside the edge cells.
+recommendation is to avoid this situation by placing the equator exactly
+at or outside the edge cells.  The original EASE-Grid defined the pole at
+the center of an odd number of grid cells (e.g. Nl.gpd used 721 x 721);
+EASE-Grid 2.0 places the pole at the intersection of the center 4 cells,
+in an even-numbered grid (e.g. EASE2_N25km.gpd uses 720 x 720).
 
 The original EASE-Grid used a spherical Earth model, with R=6371.228 km.
 Distances in the original mpp/gpd files were in km.
