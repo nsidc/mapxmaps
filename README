@@ -64,6 +64,11 @@ EASE2_Xyykm.gpd - Families of EASE-Grid-2.0 definitions, which use the
 		  The 25/12.5/6.25 km grids are nested (exactly 4 of each
 		  12.5-kilometer cells in each 25-kilometer cell, etc)
 
+		  The SMAP (Soil Moisture Active-Passive) grids (36/9/3/1
+		  km) are nested (exact multiples of each successively
+		  finer resolution grid cells in each coarser resolution
+		  grid).
+
 Grn250m.gpd     - DataRods 250 m Greenland subset of 25 km Northern Hemisphere EASE-Grid
                   
 M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
@@ -271,15 +276,10 @@ Unsupported mpp/gpd files:
 0.25degree.gpd  - 0.25-degree "geographic" (Cylindrical Equidistant)
 0.3degree.gpd   - 0.3-degree "geographic" (Cylindrical Equidistant)
 0.5degree.gpd   - 0.5-degree "geographic" (Cylindrical Equidistant)
+
 1degree.gpd     - 1-degree "geographic" (Cylindrical Equidistant)
 2degree.gpd     - 2-degree "geographic" (Cylindrical Equidistant)
 
-EASE2_M36km.gpd
-EASE2_M09km.gpd
-EASE2_M03km.gpd
-EASE2_M01km.gpd - The 36/9/3/1 km EASE-Grid-2.0 grids (see above for EASE-Grid-2.0)
-		  for SMAP (Soil Moisture Active-Passive) are nested.
-		  
 Gl25000.gpd     - Greenland subset of Nl grid (Northern Hemisphere 25 km
                   EASE-Grid)
 
