@@ -2,6 +2,12 @@
 ; This projection uses the WGS84 ellipsoid.
 ; The left and right edges of the grid are at -+180.0000000 deg longitude.
 ; The top and bottom edges of the grid are at  +-84.4397905 deg latitude.
+; This grid exactly nests in the EASE2_M25km grid
+; 2011-02-08 : Original grid defined with scale = 12512.63000405 m
+; 2014-03-05 : Scale revised to 12512.63000 m
+;              Original scale at higher precision was causing accumulated round-off
+;              error that resulted in left edge (col=-0.5) values to return
+;              longitude 180.0, and right edge values to return longitude -180.0. 
 Map Projection:                     Cylindrical Equal-Area (ellipsoid)
 Map Reference Latitude:             0.0
 Map Reference Longitude:            0.0
@@ -9,20 +15,19 @@ Map Second Reference Latitude:      30.0
 Map Rotation:                       0.0
 Map Equatorial Radius:              6378137.0        ; wgs84
 Map Eccentricity:                   0.081819190843   ; wgs84
-Map Origin X:                       -17367530.445615 ; -180.0000 deg lon
-                                                     ; mapped to X
-Map Origin Y:                       7307375.9223625  ; Grid Map Units per Cell *
+Map Origin X:                       -17367530.44     ; Grid Map Units Per Cell *
+                                                     ; Grid Width / 2
+Map Origin Y:                       7307375.92       ; Grid Map Units Per Cell *
                                                      ; Grid Height / 2
 Grid Map Origin Column:             -0.5
 Grid Map Origin Row:                -0.5
-Grid Map Units per Cell:            12512.63000405 ; -2 * Map Origin X /
-                                                     ; Grid Width
+Grid Map Units per Cell:            12512.63000      ; meters (see comment)
 Grid Width:                         2776
 Grid Height:                        1168
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
-Map Southern Bound:                 -90.0
-Map Northern Bound:                 90.0
+Map Southern Bound:                 -84.4397905
+Map Northern Bound:                 84.4397905
 Map Western Bound:                  -180.0
 Map Eastern Bound:                  180.0
 Map Graticule Latitude Interval:    15.00
