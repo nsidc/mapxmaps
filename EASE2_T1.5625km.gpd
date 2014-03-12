@@ -2,7 +2,7 @@
 ; This projection uses the WGS84 ellipsoid.
 ; The left and right edges of the grid are at -+180.0000000 deg longitude.
 ; The top and bottom edges of the grid are at  +-66.564979 deg latitude.
-; This grid exactly nests in the EASE2_T25km grid
+; This grid exactly nests in the EASE2_T3.125, 6.25, 12.5, and 25km grids
 Map Projection:                     Cylindrical Equal-Area (ellipsoid)
 Map Reference Latitude:             0.0
 Map Reference Longitude:            0.0
