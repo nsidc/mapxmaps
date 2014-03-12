@@ -3,6 +3,7 @@
 ; The pole is exactly at the intersection of the middle 4 cells.
 ; The left/right/top/bottom latitude is 0.127234 degrees North
 ; (the equator goes just outside the edges of the grid coverage along the sides)
+; This grid exactly nests in the EASE2_N25km grid
 Map Projection:                     Azimuthal Equal-Area (ellipsoid)
 Map Reference Latitude:             90.0
 Map Reference Longitude:            0.0
