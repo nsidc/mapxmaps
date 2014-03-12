@@ -1,0 +1,15 @@
+; Science On a Sphere (sos.gpd)
+; Global Cylindrical Grid
+; final image 2048 x 4096
+Map Projection:                 Cylindrical Equidistant
+Map Reference Latitude:         0.0             ; Cold Land Processes
+Map Reference Longitude:        0.0             ; Large-regional study area
+Map Scale:                      1.0             ; 1 degree / map unit
+Map Origin Latitude:            90.0            ;
+Map Origin Longitude:           -180.00         ;
+Map Equatorial Radius:          57.2957795131   ; (360.0d ) / (2 * !dpi)
+Grid Width:                     4096            ;
+Grid Height:                    2048            ;
+Grid Map Units per Cell:        0.087890625     ; 360. / 4096
+Grid Map Origin Column:         -0.5            ; puts Map Origin Lat-Lon
+Grid Map Origin Row:            -0.5            ; in UL outer
