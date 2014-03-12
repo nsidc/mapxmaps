@@ -1,7 +1,7 @@
 ; 6.25 km Global EASE-Grid-2.0 grid parameter definition.
 ; This projection uses the WGS84 ellipsoid.
-; The left and right edges of the grid are at -+180.0000000 deg longitude.
-; The top and bottom edges of the grid are at  +-84.4397905 deg latitude.
+; The left and right edges of the grid are at -+180.000000 deg longitude.
+; The top and bottom edges of the grid are at  +-84.439790 deg latitude.
 ; This grid exactly nests in the EASE2_M12.5 and 25km grids
 ; 2011-02-08 : Original grid defined with scale = 6256.315002025 m
 ; 2014-03-05 : Scale revised to 6256.31500 m
@@ -26,8 +26,8 @@ Grid Width:                         5552
 Grid Height:                        2336
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
-Map Southern Bound:                 -84.4397905
-Map Northern Bound:                 84.4397905
+Map Southern Bound:                 -84.439790
+Map Northern Bound:                 84.439790
 Map Western Bound:                  -180.0
 Map Eastern Bound:                  180.0
 Map Graticule Latitude Interval:    15.00
