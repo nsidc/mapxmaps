@@ -12,13 +12,13 @@ Map Equatorial Radius:              6378137.0        ; wgs84
 Map Eccentricity:                   0.081819190843   ; wgs84
 Map Origin X:                       -17367530.44     ; Grid Map Units Per Cell *
                                                      ; Grid Width / 2
-Map Origin Y:                       6731794.94000    ; Grid Map Units per Cell *
+Map Origin Y:                       6756820.20000    ; Grid Map Units per Cell *
                                                      ; Grid Height / 2
 Grid Map Origin Column:             -0.5
 Grid Map Origin Row:                -0.5
 Grid Map Units per Cell:            12512.63000      ; meters
 Grid Width:                         2776
-Grid Height:                        1076
+Grid Height:                        1080
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
 Map Southern Bound:                 -66.564979
