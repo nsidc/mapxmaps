@@ -1,9 +1,9 @@
 ; 25 km Temperate and Tropic Zone Cylindrical EASE-Grid 2.0 grid parameter definition
 ; This projection uses the WGS84 ellipsoid.
 ; The left and right edges of the grid are at -+180.0000000 deg longitude.
-; The top and bottom edges of the grid are at  +-66.564979 deg latitude.
+; The top and bottom edges of the grid are at  +-67.0575406 deg latitude.
 ; This grid is an exact subset of EASE2_M25km.gpd, with the UL corner
-; aligned to EASE2_M25km(col,row)=(-0.5,22.5)
+; aligned to EASE2_M25km(col,row)=(-0.5,21.5)
 Map Projection:                     Cylindrical Equal-Area (ellipsoid)
 Map Reference Latitude:             0.0
 Map Reference Longitude:            0.0
@@ -22,8 +22,8 @@ Grid Width:                         1388
 Grid Height:                        540
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
-Map Southern Bound:                 -66.564979
-Map Northern Bound:                 66.564979
+Map Southern Bound:                 -67.0575406
+Map Northern Bound:                 67.0575406
 Map Western Bound:                  -180.0
 Map Eastern Bound:                  180.0
 Map Graticule Latitude Interval:    15.00

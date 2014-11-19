@@ -1,7 +1,7 @@
 ; 3.125 km Temperate and Tropic Zone Cylindrical EASE-Grid 2.0 grid parameter definition
 ; This projection uses the WGS84 ellipsoid.
 ; The left and right edges of the grid are at -+180.0000000 deg longitude.
-; The top and bottom edges of the grid are at  +-66.564979 deg latitude.
+; The top and bottom edges of the grid are at  +-67.0575406 deg latitude.
 ; This grid exactly nests in the EASE2_T6.25, 12.5, and 25km grids
 Map Projection:                     Cylindrical Equal-Area (ellipsoid)
 Map Reference Latitude:             0.0
@@ -21,8 +21,8 @@ Grid Width:                         11104
 Grid Height:                        4320
 
 ; The following parameters are used only by NSIDC programs that actually draw maps
-Map Southern Bound:                 -66.564979
-Map Northern Bound:                 66.564979
+Map Southern Bound:                 -67.0575406
+Map Northern Bound:                 67.0575406
 Map Western Bound:                  -180.0
 Map Eastern Bound:                  180.0
 Map Graticule Latitude Interval:    15.00
