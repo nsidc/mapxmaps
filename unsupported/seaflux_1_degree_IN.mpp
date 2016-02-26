@@ -1,0 +1,11 @@
+Cylindrical Equidistant
+0.0 0.0 0.0     lat0 lon0 lat1
+0.0             rotation
+1.0             scale (degree/pixel)
+0.0     0.0     center lat lon
+-65.0   65.0    lat min max
+-180.0  180.0   lon min max
+10.00   10.00   grid
+0.00    00.00   label lat lon
+1 0 0           cil bdy riv
+57.295780       Earth radius (degrees)

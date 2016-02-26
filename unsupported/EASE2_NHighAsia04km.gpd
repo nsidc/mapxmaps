@@ -1,0 +1,28 @@
+; 4 km Northern Hemisphere EASE-Grid-2.0 grid parameter definition
+Map Projection:                     Azimuthal Equal-Area (ellipsoid)
+Map Reference Latitude:             90.0
+Map Reference Longitude:            75.0
+Map Rotation:                       0.0
+Map Equatorial Radius:              6378137.0      ; wgs84
+Map Eccentricity:                   0.081819190843 ; wgs84
+Map Origin X:                       -2054419.  ; meters  UL corner at (52.5N, 60E)
+Map Origin Y:                       -3558358.  ; meters
+Grid Map Origin Column:             -0.5
+Grid Map Origin Row:                -0.5
+Grid Map Units per Cell:            4000. ; meters
+Grid Width:                         1500
+Grid Height:                        900
+
+; The following parameters are used only by NSIDC programs that actually draw maps
+Map Southern Bound:                 0.0
+Map Northern Bound:                 90.0
+Map Western Bound:                  -180.0
+Map Eastern Bound:                  180.0
+Map Graticule Latitude Interval:    5.00
+Map Graticule Longitude Interval:   5.00
+Map Graticule Label Latitude:       0.0
+Map Graticule Label Longitude:      0.0
+Map CIL Detail Level:               1
+Map BDY Detail Level:               0
+Map RIV Detail Level:               0
+

@@ -1,0 +1,14 @@
+;; Afghan zoom image
+;; 500 m
+Map Projection:			Albers Conic Equal-Area
+Map Reference Latitude:		39.9973
+Map Reference Longitude:	58.4583
+Map Rotation:			0.0
+Map Equatorial Radius:		6370997.0 ; meters
+Map Origin Latitude:		39.9973 ; degrees
+Map Origin Longitude:		58.4583 ; degrees
+Grid Map Origin Column:		-0.5 ; UL corner of UL pixel
+Grid Map Origin Row:		-0.5 
+Grid Map Units per Cell:	500 ; 500 m
+Grid Width:			3123
+Grid Height:			2501

@@ -1,0 +1,11 @@
+; CONUS
+; "lat-lon" grid at 0.01 degrees
+Map Projection:                 Cylindrical Equidistant
+Map Reference Latitude:         52.995          ; UL corner latitude
+Map Reference Longitude:        -124.995        ; UL corner longitude
+Map Equatorial Radius:          57.2957795131   ; (360.0 degrees) / (2 * !pi) radians
+Grid Width:                     5701            ; 
+Grid Height:                    2701            ; 
+Grid Map Origin Column:         0.0             ; puts center of UL grid corner cell
+Grid Map Origin Row:            0.0             ; at Map Reference location
+Grid Cells per Map Unit:        100             ; 0.01 degrees = 100 cells per degree

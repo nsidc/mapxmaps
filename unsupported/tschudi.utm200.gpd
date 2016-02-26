@@ -1,0 +1,22 @@
+; GPD File Created with GPD_Viewer
+Map Projection:                UTM                         
+Map UTM Zone:                  11
+Map Scale:                     1.0                                      
+Map Equatorial Radius:         6378145.0                                   
+Map Polar Radius:              6356752.31414                                   
+Map Origin X:                  452112.00                                   
+Map Origin Y:                  9453740.00                                   
+Map Center Scale:              0.9996
+Map False Easting:             500000
+Grid Map Units per Cell:       250.000                                      
+Grid Map Origin Column:        -0.5                                         
+Grid Map Origin Row:           -0.5                                         
+Grid Width:                    200                                         
+Grid Height:                   200                                         
+
+; The following lines are added ONLY to allow easy access to GPD
+; information by the GPD_Viewer when reading GPD files. Do not remove
+; them if you wish to read this GPD file in the GPD_Viewer.
+
+; GPD Projection:              UTM            
+; Map Datum:                   WGS84                             

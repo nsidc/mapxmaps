@@ -1,0 +1,25 @@
+; Cordillera Blanca
+; UTM 46.3 m (MODIS resolution) = 1.5 arcseconds
+; Assumes default datum for UTM is WGS84
+Map Projection:			Universal Transverse Mercator
+Map UTM Zone:                   -18
+Map Origin X:			147321
+Map Origin Y:			9057770
+Grid Map Origin Column:		-0.5
+Grid Map Origin Row:		-0.5
+Grid Map Units per Cell:	46.331271653 ; m, MODIS tile resolution
+Grid Width:			3000
+Grid Height:			3530
+
+; The following parameters are used only by NSIDC programs that actually draw maps
+Map Southern Bound:                 -15.0
+Map Northern Bound:                 -5.0
+Map Western Bound:                  -90.0
+Map Eastern Bound:                  -50.0
+Map Graticule Latitude Interval:    1.00
+Map Graticule Longitude Interval:   1.00
+Map Graticule Label Latitude:       0.0
+Map Graticule Label Longitude:      0.0
+Map CIL Detail Level:               1
+Map BDY Detail Level:               0
+Map RIV Detail Level:               0

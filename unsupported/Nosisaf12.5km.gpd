@@ -1,0 +1,4 @@
+N200correct.mpp	map projection parameters		# N12.5km subset EASE-Grid used by
+849 849 	columns rows				# OSI SAF (Danish Met Office)
+16		grid cells per map unit			# sea ice reprocessing, 2011
+424.0 424.0	map origin column,row			#

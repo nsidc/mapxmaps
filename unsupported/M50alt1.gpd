@@ -1,0 +1,4 @@
+M50alt.mpp	map projection parameters		# EASE-Grid
+693 278		columns rows				# Modified Mercator
+1		grid cells per map unit			# 50 km, 65 N/S
+346.0 138.5	map origin column,row			#
