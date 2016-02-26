@@ -1,5 +1,6 @@
 ; Indus Basin
 ; UTM 463 m (MODIS resolution) = 15 arcseconds
+; Assumes default datum for UTM is WGS84
 Map Projection:			Universal Transverse Mercator
 Map UTM Zone:                   43
 Map Origin X:			126000
