@@ -1,3 +1,10 @@
+; 2016-06-08 - this gpd described the BU-MODIS landcover V4 data
+; I think that the actual origin of this .gpd should really
+; be col,row = 21599.5, 9359.5
+; but I have not realized this until today, and we are planning to get
+; V6 of the BU-MODIS data soon.  That reprocessing will make all masks
+; produced with the V4 file obsolete.
+; At the time we do the reprocessing we should validate the gpd we use
 Map Projection: Interupted Homolosine Equal-Area
 Map Reference Latitude: 0.0
 Map Reference Longitude: 0.0
