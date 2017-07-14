@@ -144,6 +144,8 @@ SpathP.mpp      - 100 km scale TOVS Polar Pathfinder Southern Hemisphere
 
 Supported non-EASE-Grid mpp/gpd files:
 --------------------------------------
+BamberDEM1km.gpd  - nsidc-0422 Antarctic 1 km Digital Elevation Model (DEM)
+                    from Combined ERS-1 Radar and ICESat Laser Satellite Altimetry
 
 GlasAntDemWgs500.gpd,
 GlasGrnDemWgs1km.gpd
