@@ -1,0 +1,15 @@
+; Bamber DEM of Antarctica
+; Polar Stereographic 1 km
+Map Projection:                 Polar Stereographic Ellipsoid
+Map Reference Latitude:         -90.0
+Map Reference Longitude:        0.0
+Map Second Reference Latitude:  -71.0
+Map Eccentricity:               0.081819190843 ; wgs84
+Map Equatorial Radius:          6378137.0      ; wgs84 meters
+Map Origin X:                   -2800500.0     ; south pole at center
+Map Origin Y:                   2800500.0      ; of center pixel
+Grid Map Origin Column:         -0.5           ; UL corner of UL pixel
+Grid Map Origin Row:            -0.5
+Grid Map Units per Cell:        1000
+Grid Width:                     5601
+Grid Height:                    5601
