@@ -78,7 +78,7 @@ Ml.gpd		- 25 km Global Cylindrical EASE-Grid
 
 Mh.gpd		- 12.5 km Global Cylindrical EASE-Grid
 
-modis/          - subdirectory with complete set of .gpd files for MODIS 500 m tiles,
+modis_500m/     - subdirectory with complete set of .gpd files for MODIS 500 m tiles,
 		  also includes a single .gpd for the complete sinusoidal projection
 
 N200correct.mpp - 200 km scale Northern Hemisphere EASE-Grid mpp.  All
