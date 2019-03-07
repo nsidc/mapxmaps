@@ -1,0 +1,17 @@
+; grid parameter definition file for MODIS sinusoidal grid
+; Nominal resolution is 500 m
+; Actual resolution is 0.5 * 926.62543305 m
+; ref https://landweb.modaps.eosdis.nasa.gov/cgi-bin/developer/tilemap.cgi
+; The full coverage is 36 tiles wide by 18 tiles high
+; with each tile comprising cols x rows == 2400 x 2400
+Map Projection:              Sinusoidal
+Map Reference Latitude:      0      
+Map Reference Longitude:     0      
+Map Equatorial Radius:         6371007.181
+Map Origin X:                  0.
+Map Origin Y:                  0.
+Grid Map Origin Column:      43199.5
+Grid Map Origin Row:         21599.5
+Grid Map Units per Cell:     463.312716525
+Grid Width:                  86400
+Grid Height:                 43200
