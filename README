@@ -19,8 +19,9 @@ installing from a tarball, it will create a subdirectory called
 The mapx library and its application programs use the environment variable
 PATHMPP to search for .mpp/.gpd files.  PATHMPP can contain a list of
 directories that will be searched in order.  For example, if you have
-untarred these files in your home directory, and you have your own local
-.mpp files in /my/other/path/, then, in C shell, you should specify
+placed these files in a subdirectory called 'nsidc_maps' located within
+your home directory, and you have your own local .mpp files in /my/other/path/,
+then, in C shell, you should specify
 
 setenv PATHMPP ~/nsidc_maps:/my/other/path
 
