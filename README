@@ -6,10 +6,10 @@ and Grid Parameter Definition (.gpd) files that are used with mapping and
 gridding software (the mapx library and its application programs) at
 NSIDC.
 
-See http://geospatialmethods.org/documents/ppgc.html for background on the
-software.  
+See https://nsidc.org/support/how/Points-Pixels-Grids-and-Cells-A-Mapping-and-Gridding-Primer
+for background on the software.
 
-See http://geospatialmethods.org/mapx/ for the latest news and software
+See https://github.com/nsidc/mapx_nsidc for the latest news and software
 distribution.
 
 These files can be installed anywhere on your local system.  If you are
@@ -54,35 +54,35 @@ EASE2_Xyykm.gpd - Families of EASE-Grid-2.0 definitions, which use the
                   used in the original EASE-Grids.  These grid definitions
                   make file distribution to/from geotiff format and GIS
                   tools much easier than the original definitions.  For
-		  these grids:
-		  X : N = Northern Lambert Azimuthal Equal-Area
-		      S = Southern Lambert Azimuthal Equal-Area
-		      M = Cylindrical Equal-Area
-		  and
-		  yy : grid resolution, in km (can include optional
-		       decimal point, e.g. '12.5'
-		  The 25/12.5/6.25 km grids are nested (exactly 4 of each
-		  12.5-kilometer cells in each 25-kilometer cell, etc)
+                  these grids:
+                  X : N = Northern Lambert Azimuthal Equal-Area
+                      S = Southern Lambert Azimuthal Equal-Area
+                      M = Cylindrical Equal-Area
+                  and
+                  yy : grid resolution, in km (can include optional
+                       decimal point, e.g. '12.5'
+                  The 25/12.5/6.25 km grids are nested (exactly 4 of each
+                  12.5-kilometer cells in each 25-kilometer cell, etc)
 
-		  The SMAP (Soil Moisture Active-Passive) grids (36/9/3/1
-		  km) are nested (exact multiples of each successively
-		  finer resolution grid cells in each coarser resolution
-		  grid).
+                  The SMAP (Soil Moisture Active-Passive) grids (36/9/3/1
+                  km) are nested (exact multiples of each successively
+                  finer resolution grid cells in each coarser resolution
+                  grid).
 
 Grn250m.gpd     - DataRods 250 m Greenland subset of 25 km Northern Hemisphere EASE-Grid
-                  
+
 M200correct.mpp - 200 km scale Global Cylindrical EASE-Grid mpp.  All
-		  supported EASE-Grid global gpds must refer to this mpp
+                  supported EASE-Grid global gpds must refer to this mpp
 
-Ml.gpd		- 25 km Global Cylindrical EASE-Grid
+Ml.gpd                - 25 km Global Cylindrical EASE-Grid
 
-Mh.gpd		- 12.5 km Global Cylindrical EASE-Grid
+Mh.gpd                - 12.5 km Global Cylindrical EASE-Grid
 
 modis_500m/     - subdirectory with complete set of .gpd files for MODIS 500 m tiles,
-		  also includes a single .gpd for the complete sinusoidal projection
+                  also includes a single .gpd for the complete sinusoidal projection
 
 N200correct.mpp - 200 km scale Northern Hemisphere EASE-Grid mpp.  All
-		  supported EASE-Grid Northern Hemisphere gpds must refer
+                  supported EASE-Grid Northern Hemisphere gpds must refer
                   to this mpp
 
 N2conus.gpd     - 2.5 km CONUS Northern Hemisphere subset EASE-Grid
@@ -90,13 +90,13 @@ N2conus.gpd     - 2.5 km CONUS Northern Hemisphere subset EASE-Grid
 Na1.gpd,
 Na5.gpd &
 Na25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Northern Hemisphere
-                  subset EASE-Grid 
+                  subset EASE-Grid
 
 Naari.gpd       - 12.5 km AARI sea ice grids Northern Hemisphere subset EASE-Grid
 
-Nl.gpd		- 25 km Northern Hemisphere EASE-Grid
+Nl.gpd                - 25 km Northern Hemisphere EASE-Grid
 
-Nh.gpd		- 12.5 km Northern Hemisphere EASE-Grid
+Nh.gpd                - 12.5 km Northern Hemisphere EASE-Grid
 
 NModis4km.gpd   - 4 km Northern Hemisphere EASE-Grid for MODIS sea ice
 NModis1km.gpd   - 1 km Northern Hemisphere EASE-Grid for MODIS sea ice
@@ -104,16 +104,16 @@ NModis1km.gpd   - 1 km Northern Hemisphere EASE-Grid for MODIS sea ice
 NpathP.gpd &
 NpathP.mpp      - 100 km scale TOVS Polar Pathfinder Northern Hemisphere
                   subset EASE-Grid; the only exception to the rule that all
-		  supported Northern Hemisphere. EASE-Grids refer to
+                  supported Northern Hemisphere. EASE-Grids refer to
                   N200correct.mpp.
 
 Nrims50.gpd,
 Nrims75.gpd &
-Nrims100.gpd    - 50, 75 and 100 km Arctic RIMS Northern Hemisphere subset 
+Nrims100.gpd    - 50, 75 and 100 km Arctic RIMS Northern Hemisphere subset
                   EASE-Grids.  This family of grids places the Pole down and to the
-		  right of the center of the grid, in order to match the bore-centered
-		  convention of the original EASE-Grids, uses the rotation of the
-		  original EASE-Grids (Greenwich Meridian oriented "down" from the Pole)
+                  right of the center of the grid, in order to match the bore-centered
+                  convention of the original EASE-Grids, uses the rotation of the
+                  original EASE-Grids (Greenwich Meridian oriented "down" from the Pole)
 
 Nrims25km.gpd,
 Nrims50km.gpd,
@@ -121,20 +121,20 @@ Nrims100km.gpd,
 Nrims125km.gpd,
 Nrims500km.gpd  - Arctic RIMS No. Hem. EASE-Grids.  This family of
                   grids places the Pole at the intersection of the center 4 grid cells,
-		  and rotates the projection (Greenwich Meridian oriented "right" from
-		  the Pole).  The 25, 50 and 100 km grids are nested.
+                  and rotates the projection (Greenwich Meridian oriented "right" from
+                  the Pole).  The 25, 50 and 100 km grids are nested.
 
 S200correct.mpp - 200 km scale Southern Hemisphere EASE-Grid mpp.  All
-		  supported EASE-Grid Southern Hemisphere gpds must refer to this mpp
+                  supported EASE-Grid Southern Hemisphere gpds must refer to this mpp
 
 Sa1.gpd,
 Sa5.gpd &
-Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Southern Hemisphere subset 
-                  EASE-Grid 
+Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Southern Hemisphere subset
+                  EASE-Grid
 
-Sl.gpd		- 25 km Southern Hemisphere EASE-Grid
+Sl.gpd                - 25 km Southern Hemisphere EASE-Grid
 
-Sh.gpd		- 12.5 km Southern Hemisphere EASE-Grid
+Sh.gpd                - 12.5 km Southern Hemisphere EASE-Grid
 
 SModis4km.gpd   - 4 km Southern Hemisphere EASE-Grid for MODIS sea ice
 SModis1km.gpd   - 1 km Southern Hemisphere EASE-Grid for MODIS sea ice
@@ -142,7 +142,7 @@ SModis1km.gpd   - 1 km Southern Hemisphere EASE-Grid for MODIS sea ice
 SpathP.gpd &
 SpathP.mpp      - 100 km scale TOVS Polar Pathfinder Southern Hemisphere
                   subset EASE-Grid; the only exception to the rule that all
-		  supported Southern Hemisphere. EASE-Grids refer to
+                  supported Southern Hemisphere. EASE-Grids refer to
                   S200correct.mpp.
 
 Supported non-EASE-Grid mpp/gpd files:
@@ -154,106 +154,106 @@ GlasAntDemWgs500.gpd,
 GlasGrnDemWgs1km.gpd
                   - Glas Greenland and Antarctic Digital Elevation Model
                     (DEM) grids
-                  
+
 Ims24km.gpd,
 Ims4km.gpd        - NOAA Interactive Multisensor Snow & Ice Mapping System
                     (IMS) 24 km and 4 km grids
 
-Nps.mpp           - Northern Hemisphere Polar Stereographic (TB and sea ice) 
+Nps.mpp           - Northern Hemisphere Polar Stereographic (TB and sea ice)
 
-Nps6.gpd, 
+Nps6.gpd,
 N3A.gpd &
 N3B.gpd           - 6.25, 12.5 and 25 km Northern Hemisphere Polar
                     Stereographic grids.
 
 Sps.mpp           - Southern Hemisphere Polar Stereographic (TB and sea ice)
 
-Sps6.gpd, 
+Sps6.gpd,
 S3A.gpd &
 S3B.gpd           - 6.25, 12.5 and 25 km Southern Hemisphere Polar Stereographic grids.
 
 NpsGrn.gpd        - 25 km Greenland subset of Nps.mpp
 
-llo.gpd		  - lat/lon one degree grids for ISLSCP snow and sea ice.
-llh.gpd		  - lat/lon half degree grids for ISLSCP snow and sea ice.
-llq.gpd		  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
+llo.gpd                  - lat/lon one degree grids for ISLSCP snow and sea ice.
+llh.gpd                  - lat/lon half degree grids for ISLSCP snow and sea ice.
+llq.gpd                  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
 
-Na12500-CF.gpd	  - Chuck Fowler's version of 12.5 km  AVHRR Polar
-		    Pathfinder Northern Hemisphere subset EASE-Grid (ice age
+Na12500-CF.gpd          - Chuck Fowler's version of 12.5 km  AVHRR Polar
+                    Pathfinder Northern Hemisphere subset EASE-Grid (ice age
                     data set)
 
 Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA)
 grids:
 
 lrsa_geo000.5.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    0.5 arcsecond = 0.000138889 degree grid
-		    No current data product, but referenced in MODIS CLPX
-		    grids document.
+                    0.5 arcsecond = 0.000138889 degree grid
+                    No current data product, but referenced in MODIS CLPX
+                    grids document.
 
 lrsa_geo001.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    1.0 arcsecond = 0.000277778 degree grid
-		    No current data product, but referenced in MODIS CLPX
-		    grids document.
+                    1.0 arcsecond = 0.000277778 degree grid
+                    No current data product, but referenced in MODIS CLPX
+                    grids document.
 
 lrsa_geo007.5.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    7.5 arcsecond = 0.00208333 degree grid
-		    CLPX MOD02QKM, MOD09Q1, MOD13Q1
+                    7.5 arcsecond = 0.00208333 degree grid
+                    CLPX MOD02QKM, MOD09Q1, MOD13Q1
 
 lrsa_geo015.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    15.0 arcsecond = 0.00416667 degree grid
-		    CLPX MOD02HKM, MOD09A1, MOD10_L2, MOD10A1, MOD10A2
+                    15.0 arcsecond = 0.00416667 degree grid
+                    CLPX MOD02HKM, MOD09A1, MOD10_L2, MOD10A1, MOD10A2
 
 lrsa_geo030.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    30.0 arcsecond = 0.00833333 degree grid
-		    CLPX MOD021KM, MOD03, MOD11A1, MOD35_L2
+                    30.0 arcsecond = 0.00833333 degree grid
+                    CLPX MOD021KM, MOD03, MOD11A1, MOD35_L2
 
 lrsa_geo180.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    180 arcsecond = 0.05-degree grid
-		    CLPX MOD10C1, MOD10C2
+                    180 arcsecond = 0.05-degree grid
+                    CLPX MOD10C1, MOD10C2
 
 lrsa_geo360.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		    360 arcsecond = 0.1-degree grid
-		    No current data product, but referenced in MODIS CLPX
-		    grids document.
+                    360 arcsecond = 0.1-degree grid
+                    No current data product, but referenced in MODIS CLPX
+                    grids document.
 
 lrsa_geo720.0.gpd - CLPX LRSA Universal Transverse Mercator
-		    720 arcsecond = 0.2-degree grid
-		    CLPX SSM/I TBs, AMSR-E TBs
+                    720 arcsecond = 0.2-degree grid
+                    CLPX SSM/I TBs, AMSR-E TBs
 
 lrsa_utm00012.gpd - CLPX LRSA Universal Transverse Mercator
-		    12.5 meter grid
-		    No current data product, but referenced in MODIS CLPX
-		    grids document.
+                    12.5 meter grid
+                    No current data product, but referenced in MODIS CLPX
+                    grids document.
 
 lrsa_utm00025.gpd - CLPX LRSA Universal Transverse Mercator
-		    25 meter grid
-		    No current data product, but referenced in MODIS CLPX
-		    grids document.
+                    25 meter grid
+                    No current data product, but referenced in MODIS CLPX
+                    grids document.
 
 lrsa_utm00250.gpd - CLPX LRSA Universal Transverse Mercator
-		    250 meter grid
-		    CLPX MOD02QKM, MOD09Q1, MOD13Q1
+                    250 meter grid
+                    CLPX MOD02QKM, MOD09Q1, MOD13Q1
 
 lrsa_utm00500.gpd - CLPX LRSA Universal Transverse Mercator
-		    500 meter grid
-		    CLPX MOD02HKM, MOD09A1, MOD10_L2, MOD10A1, MOD10A2
+                    500 meter grid
+                    CLPX MOD02HKM, MOD09A1, MOD10_L2, MOD10A1, MOD10A2
 
 lrsa_utm01000.gpd - CLPX LRSA Universal Transverse Mercator
-		    1 km grid
-		    CLPX MOD021KM, MOD03, MOD11A1, MOD35_L2
+                    1 km grid
+                    CLPX MOD021KM, MOD03, MOD11A1, MOD35_L2
 
 lrsa_utm05000.gpd - CLPX LRSA Universal Transverse Mercator
-		    5 km grid
-		    CLPX MOD10C1, MOD10C2
+                    5 km grid
+                    CLPX MOD10C1, MOD10C2
 
 lrsa_utm12500.gpd - CLPX LRSA Universal Transverse Mercator
-		    12.5 km grid
-		    No current data product, but referenced in MODIS CLPX
-		    grids document.
+                    12.5 km grid
+                    No current data product, but referenced in MODIS CLPX
+                    grids document.
 
 lrsa_utm25000.gpd - CLPX LRSA Universal Transverse Mercator
-		    25 km grid
-		    CLPX SSM/I TBs, AMSR-E TBs
+                    25 km grid
+                    CLPX SSM/I TBs, AMSR-E TBs
 
 ramp.mpp          - Polar Stereographic for RAMP DEM
 ramp1kmdem.gpd    - 1km RAMP DEM V2 Polar Stereographic
@@ -275,7 +275,7 @@ Unsupported mpp/gpd files:
 0.09degree.gpd  - 0.09-degree "geographic" (Cylindrical Equidistant) (used for
                   Science on the Sphere images in sea ice.)
 0.05degree.gpd  - 0.05-degree "geographic" (Cylindrical Equidistant)
-		  (MODIS products call this "Climate Modeller's Grid" CMG)
+                  (MODIS products call this "Climate Modeller's Grid" CMG)
 0.1degree.gpd   - 0.1-degree "geographic" (Cylindrical Equidistant)
 0.2degree.gpd   - 0.2-degree "geographic" (Cylindrical Equidistant)
 0.25degree.gpd  - 0.25-degree "geographic" (Cylindrical Equidistant)
@@ -293,10 +293,10 @@ kmz.gpd         - rectangular grid on Cylindrical Equidistant used for displayin
 
 M50.gpd         - 50 km Global Cylindrical EASE-Grid
 
-N5.gpd		- 5 km Northern Hemisphere EASE-Grid
+N5.gpd                - 5 km Northern Hemisphere EASE-Grid
 N5conus.gpd     - 5 km CONUS EASE-Grid
 
-N10.gpd		- 10 km Northern Hemisphere EASE-Grid
+N10.gpd                - 10 km Northern Hemisphere EASE-Grid
 
 N1TibP.gpd      - 1 km EASE-Grid, subset of the Tibetan Plateau
 
@@ -305,25 +305,25 @@ N2TibP.gpd      - 2.5 km EASE-Grid, subset of the Tibetan Plateau
 N250km.gpd      - Northern Hemisphere, 250 km EASE-Grid, with North Pole
                   at intersection of center 4 cells.  "New" (parameter:value)
                   format gpd.
-                  
-N50.gpd		- 50 km Northern Hemisphere EASE-Grid
+
+N50.gpd                - 50 km Northern Hemisphere EASE-Grid
 
 Nha.gpd         - 12.5 km Northern Hemisphere EASE-Grid. 721 x 721 subset
                   of Nh.gpd, centered at North Pole.
 
-Nva.gpd         - 6.25 km Northern Hemisphere EASE-Grid. 1441 x 1441, 
+Nva.gpd         - 6.25 km Northern Hemisphere EASE-Grid. 1441 x 1441,
                   centered at North Pole.
 
 Nups01000.gpd   - 1 km Northern Hemisphere Universal Polar Stereographic.
                   Used for UTM for regions north of 84 degrees north
                   latitude.
-                  
+
 Sups01000.gpd   - 1 km Southern Hemisphere Universal Polar Stereographic.
                   Used for UTM for regions south of 80 degrees south
                   latitude.
 
-S5.gpd		- 5 km Southern Hemisphere EASE-Grid
-S50.gpd		- 50 km Southern Hemisphere EASE-Grid
+S5.gpd                - 5 km Southern Hemisphere EASE-Grid
+S50.gpd                - 50 km Southern Hemisphere EASE-Grid
 
 Sha.gpd         - 12.5 km Southern Hemisphere EASE-Grid, 721x721 subset
                   of Nl.gpd, centered at South Pole.
@@ -340,7 +340,7 @@ lhasa.gpd       - 4 km Tibet Plateau region (centered on Lhasa) subset of Nl gri
                   (Northern Hemisphere 25 km EASE-Grid)
 
 lrsa_geo1440.0.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
-		  0.4-degree grid
+                  0.4-degree grid
 
 lrsa_utm50000.0.gpd - CLPX LRSA Universal Transverse Mercator
                   50 km grid
@@ -356,20 +356,20 @@ ncep_global.mpp - 2.5-degree NCEP global, cylindrical equidistant,
 ncep_global.gpd - 2.5-degree NCEP grid, Northern Hemisphere only
 
 noaa_wksn.gpd   - Describes the NOAA weekly snow maps grid (89x89, polar
-noaa_wksn.mpp	  stereo)
+noaa_wksn.mpp          stereo)
 
-IGH1km.gpd	- Interrupted Goode's Homolosine at 1 km, used for
-		  global landcover maps from EDC gigbp2_0g.img
+IGH1km.gpd        - Interrupted Goode's Homolosine at 1 km, used for
+                  global landcover maps from EDC gigbp2_0g.img
 
-IGH8km.gpd	- Interrupted Goode's Homolosine at 8 km
+IGH8km.gpd        - Interrupted Goode's Homolosine at 8 km
 
-gl_g1km.gpd	- Interrupted Goode's Homolosine at 1 km, used for
-		  global landcover maps from BU gl_g.sds01.v4.bin
+gl_g1km.gpd        - Interrupted Goode's Homolosine at 1 km, used for
+                  global landcover maps from BU gl_g.sds01.v4.bin
 
-etopo5.gpd	- global 5 minute maps like etopo5.dat
+etopo5.gpd        - global 5 minute maps like etopo5.dat
 etopo5.mpp
 
-gtopo30.gpd	- global 30 arc-second (~1 km) maps like GLOBE
+gtopo30.gpd        - global 30 arc-second (~1 km) maps like GLOBE
 
 Mease.gpd       - global 1 meter Ease-Grid
 Mease.mpp
@@ -414,7 +414,7 @@ in an even-numbered grid (e.g. EASE2_N25km.gpd uses 720 x 720).
 The original EASE-Grid used a spherical Earth model, with R=6371.228 km.
 Distances in the original mpp/gpd files were in km.
 
-EASE-Grid-2.0 uses the WGS84 ellipsoid.  Keep the distances in meters.  
+EASE-Grid-2.0 uses the WGS84 ellipsoid.  Keep the distances in meters.
 
 Global grids:
 
@@ -444,8 +444,3 @@ Boulder, CO, USA 80309-0449
 Phone: +1 303-492-6199
 Fax: +1 303-492-2468
 E-mail: nsidc@nsidc.org
-
-
-
- 
-
