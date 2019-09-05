@@ -445,7 +445,7 @@ Global grids:
 
 ## License
 
-See [LICENSE](LICENCE.md)
+See [LICENSE](LICENSE.md)
 
 ## Code of Conduct
 
