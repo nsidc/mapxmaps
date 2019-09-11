@@ -5,7 +5,7 @@ and Grid Parameter Definition (.gpd) files that are used with mapping and
 gridding software (the mapx library and its application programs) at
 NSIDC.
 
-See [Points, Pixels, Grids, and Cells - A Mapping and Gridding Primer](https://github.com/nsidc/mapx/blob/master/PPGC.md)
+See [Points, Pixels, Grids, and Cells - A Mapping and Gridding Primer](https://nsidc.org/support/how/Points-Pixels-Grids-and-Cells-A-Mapping-and-Gridding-Primer)
 for background on the software.
 
 See [mapx](https://github.com/nsidc/mapx) for the latest news and software distribution.
