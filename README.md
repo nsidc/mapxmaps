@@ -1,31 +1,28 @@
--------------------------------------------------------------------------
-NSIDC Map and Grid Definition Files
+# NSIDC Map and Grid Definition Files
 
 This directory contains a collection of Map Projection Parameters (.mpp)
 and Grid Parameter Definition (.gpd) files that are used with mapping and
 gridding software (the mapx library and its application programs) at
 NSIDC.
 
-See https://nsidc.org/support/how/Points-Pixels-Grids-and-Cells-A-Mapping-and-Gridding-Primer
+See [Points, Pixels, Grids, and Cells - A Mapping and Gridding Primer](https://nsidc.org/support/how/Points-Pixels-Grids-and-Cells-A-Mapping-and-Gridding-Primer)
 for background on the software.
 
-See https://github.com/nsidc/mapx_nsidc for the latest news and software
-distribution.
+See [mapx](https://github.com/nsidc/mapx) for the latest news and software distribution.
 
-These files can be installed anywhere on your local system.  If you are
-installing from a tarball, it will create a subdirectory called
-"nsidc_maps" in the directory where you extract the tarball.
+These files can be installed anywhere on your local system.
 
 The mapx library and its application programs use the environment variable
-PATHMPP to search for .mpp/.gpd files.  PATHMPP can contain a list of
+`PATHMPP` to search for .mpp/.gpd files.  `PATHMPP` can contain a list of
 directories that will be searched in order.  For example, if you have
-untarred these files in your home directory, and you have your own local
-.mpp files in /my/other/path/, then, in C shell, you should specify
+placed these files in a subdirectory called 'nsidc_maps' located within
+your home directory, and you have your own local .mpp files in /my/other/path/,
+then, in C shell, you should specify
 
-setenv PATHMPP ~/nsidc_maps:/my/other/path
+`setenv PATHMPP ~/nsidc_maps:/my/other/path`
 
-(N.B. For long-time users of the mapx library: PATHGPD is obsolete, all
-routines now search PATHMPP only.)
+(N.B. For long-time users of the mapx library: `PATHGPD` is obsolete, all
+routines now search `PATHMPP` only.)
 
 There are two types of mpp/gpd files.  Files in the top nsidc_maps
 directory are supported files.  Supported files describe data sets that
@@ -40,15 +37,15 @@ mapx library and applications to do something similar.
 
 If you wish to use the unsupported .mpp/.gpd files, remember to add the
 nsidc_maps/unsupported subdirectory to the list of directories in your
-PATHMPP.
+`PATHMPP`.
 
 This collection of mpp/gpd files has accumulated over a number of years
 and various projects at NSIDC, and unfortunately suffers from a lack of
 naming convention.
 
-Supported EASE-Grid mpp/gpd files:
----------------------------------
+## Supported EASE-Grid mpp/gpd files:
 
+```
 EASE2_Xyykm.gpd - Families of EASE-Grid-2.0 definitions, which use the
                   WGS84 ellipsoid instead of the spherical Earth model
                   used in the original EASE-Grids.  These grid definitions
@@ -132,9 +129,9 @@ Sa5.gpd &
 Sa25.gpd        - 1.25, 5 and 25 km AVHRR Polar Pathfinder Southern Hemisphere subset
                   EASE-Grid
 
-Sl.gpd                - 25 km Southern Hemisphere EASE-Grid
+Sl.gpd          - 25 km Southern Hemisphere EASE-Grid
 
-Sh.gpd                - 12.5 km Southern Hemisphere EASE-Grid
+Sh.gpd          - 12.5 km Southern Hemisphere EASE-Grid
 
 SModis4km.gpd   - 4 km Southern Hemisphere EASE-Grid for MODIS sea ice
 SModis1km.gpd   - 1 km Southern Hemisphere EASE-Grid for MODIS sea ice
@@ -144,9 +141,10 @@ SpathP.mpp      - 100 km scale TOVS Polar Pathfinder Southern Hemisphere
                   subset EASE-Grid; the only exception to the rule that all
                   supported Southern Hemisphere. EASE-Grids refer to
                   S200correct.mpp.
+```
 
-Supported non-EASE-Grid mpp/gpd files:
---------------------------------------
+### Supported non-EASE-Grid mpp/gpd files:
+```
 BamberDEM1km.gpd  - nsidc-0422 Antarctic 1 km Digital Elevation Model (DEM)
                     from Combined ERS-1 Radar and ICESat Laser Satellite Altimetry
 
@@ -174,17 +172,18 @@ S3B.gpd           - 6.25, 12.5 and 25 km Southern Hemisphere Polar Stereographic
 
 NpsGrn.gpd        - 25 km Greenland subset of Nps.mpp
 
-llo.gpd                  - lat/lon one degree grids for ISLSCP snow and sea ice.
-llh.gpd                  - lat/lon half degree grids for ISLSCP snow and sea ice.
-llq.gpd                  - lat/lon quarter degree grids for ISLSCP snow and sea ice.
+llo.gpd           - lat/lon one degree grids for ISLSCP snow and sea ice.
+llh.gpd           - lat/lon half degree grids for ISLSCP snow and sea ice.
+llq.gpd           - lat/lon quarter degree grids for ISLSCP snow and sea ice.
 
-Na12500-CF.gpd          - Chuck Fowler's version of 12.5 km  AVHRR Polar
+Na12500-CF.gpd    - Chuck Fowler's version of 12.5 km  AVHRR Polar
                     Pathfinder Northern Hemisphere subset EASE-Grid (ice age
                     data set)
+```
 
-Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA)
-grids:
+#### Cold Land Processes Experiment (CLPX) Large Regional Study Area (LRSA) grids:
 
+```
 lrsa_geo000.5.gpd - CLPX LRSA "geographic" (Cylindrical Equidistant)
                     0.5 arcsecond = 0.000138889 degree grid
                     No current data product, but referenced in MODIS CLPX
@@ -269,9 +268,10 @@ Ramp1500.gpd      - 1500m RAMP Backscatter
 Moa.mpp           - Polar Stereographic for Mosaic of Antarctica
 Moa0125.gpd       - 125m Mosaic of Antarctica
 Moa0750.gpd       - 750m Mosaic of Antarctica
+```
 
-Unsupported mpp/gpd files:
---------------------------
+### Unsupported mpp/gpd files:
+```
 0.09degree.gpd  - 0.09-degree "geographic" (Cylindrical Equidistant) (used for
                   Science on the Sphere images in sea ice.)
 0.05degree.gpd  - 0.05-degree "geographic" (Cylindrical Equidistant)
@@ -383,8 +383,9 @@ Moa750.gpd      - 750m Mosaic of Antarctica
                   Used for internal development at NSIDC
 westUS2km.gpd   - 2 km Western US region subset of Nl grid
                   (Northern Hemisphere 25 km EASE-Grid)
+```
 
----------------------------------------------------------------------------
+---
 
 Guidelines to consider when defining new EASE-Grid gpds:
 
@@ -418,29 +419,51 @@ EASE-Grid-2.0 uses the WGS84 ellipsoid.  Keep the distances in meters.
 
 Global grids:
 
-1) Areal coverage:
+1. Areal coverage:
 
-   a) Should never have overlap in the horizontal dimension, i.e. the
+   A. Should never have overlap in the horizontal dimension, i.e. the
    longitude of the left edge should be exactly equal to the longitude of the
    right edge
 
-   b) Cannot (by definition) extend beyond the poles in the vertical
+   B. Cannot (by definition) extend beyond the poles in the vertical
    dimension.  Depending on the cell size, this will probably mean that the
    poles will not be covered.  (If you care that much, you should probably be
    using an azimuthal grid, anyway.)
 
-2) Refer to rules for azimuthal grids wrt nesting cells in another existing
+1. Refer to rules for azimuthal grids wrt nesting cells in another existing
    grid.
 
------------------------------------------------------------------------------
+---
+
+## Level of Support
+
+* This repository is not actively supported by NSIDC but we welcome issue submissions and pull requests in order to foster community contribution.
+
+## Requirements
+
+* None, but these files are used primarily with [mapx](https://github.com/nsidc/mapx)
+
+## License
+
+See [LICENSE](LICENSE.md)
+
+## Code of Conduct
+
+See [Code of Conduct](CODE_OF_CONDUCT.md)
+
+## Credit
+
+This software was developed by the National Snow and Ice Data Center with funding from multiple sources.
+
+---
 
 For questions or problems with these mpp/gpd files, please contact:
 
-User Services
-National Snow and Ice Data Center
-CIRES, 449 UCB
-University of Colorado
-Boulder, CO, USA 80309-0449
-Phone: +1 303-492-6199
-Fax: +1 303-492-2468
+User Services  
+National Snow and Ice Data Center  
+CIRES, 449 UCB  
+University of Colorado  
+Boulder, CO, USA 80309-0449  
+Phone: +1 303-492-6199  
+Fax: +1 303-492-2468  
 E-mail: nsidc@nsidc.org
